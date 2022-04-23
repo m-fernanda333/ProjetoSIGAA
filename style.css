@@ -100,7 +100,8 @@ footer {
 }
 
 .ItemNavigationBar:active { /*Formatação para o link corrente*/
-	border-top: 3px solid #F1F1F1;
+	text-decoration:overline;  /*alterado*/
+	
 }
 /*:::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::*/
 
