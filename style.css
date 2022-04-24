@@ -93,15 +93,29 @@ footer {
 	color: 	#F1F1F1;
 	font-weight:  bold;
 	font-size: 	20px;
+	
+	transition:all 300ms ease-in-out;
 }
 
-.ItemNavigationBar:hover { /*Formatação para links de navegação ao passar o mouse*/
-	border-top: 3px solid #F1F1F1;
+.NavigationBar a:hover { /*Formatação para links de navegação ao passar o mouse*/
+	
+	text-decoration:overline;
+	position: relative;
+	top: 5px;
+   
+	
 }
 
-.ItemNavigationBar:active { /*Formatação para o link corrente*/
-	border-top: 3px solid #F1F1F1;
+.ItemNavigationBar:active {
+	text-decoration: overline; /*Formatação para o link corrente*/
+	
 }
+#ItemNavigationBar
+{
+	text-decoration: overline;
+	
+}
+
 /*:::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::*/
 
 /*ÁREA E FORM. DE LOGIN*/
