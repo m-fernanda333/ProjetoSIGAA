@@ -1,0 +1,294 @@
+/* ::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::
+
+Data De Modificação:  24/04;
+Autor:  M. Fernanda Pinheiro - mfpinheiro02@gmail.com;
+
+Sintaxe: 
+	Identificadores: sintaxeIdentificadores; 
+	Classes: SintaxeClasses; 
+	ícones: ICONES;
+Paleta de cores: 
+	Azul escuro: #141F49 ;
+	Cinza: #F1F1F1;
+	Azul médio: #11386B;
+
+:::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::: */ 
+
+/* PADRÕES SEM IDENTIFICADOR VÁLIDOS E/OU VÁLIDOS TODO O ESCOPO */
+
+* { 
+	margin: 0;
+	padding: 0;
+	font-family: Roboto, sans-serif;
+}
+
+i {
+	cursor: pointer;
+}
+
+body {
+	background-color: #F1F1F1;
+	background-size: 100%;
+	background-repeat: no-repeat;
+}
+
+
+/*:::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::*/
+
+/*OPÇÕES DE BODY POR IMAGEM*/
+
+#bodySigaa{
+	background-image: url(img/bgsigaa.png);
+}
+
+#bodySipac{
+	background-image: url(img/bgsipac.png);
+}
+
+#bodySigrh{
+	background-image: url(img/bgsigrh.png);
+}
+
+#bodySigpp{
+	background-image: url(img/bgsigpp.png);
+}
+
+#bodySiged{
+	background-image: url(img/bgsiged.png);
+}
+
+#bodySigaAdmin{
+	background-image: url(img/bgsigaadmin.png);
+}
+
+
+/*:::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::*/
+
+/* BARRA DE NAVEGAÇÃO */
+
+#navigationLane{ /*Faixa Azul superior externa*/
+	background-color: #141F49;
+	position: absolute;
+	z-index: 20;
+	height: 75px;
+	width: 83%;
+	border-bottom-right-radius: 25px;
+	border-bottom-left-radius: 	25px;
+	margin-left: 8.5%;
+	box-shadow: inset 0 -3em 3em rgba(0,0,0,0.1),0.3em 0.3em 1em rgba(0,0,0,0.3);
+}
+
+.NavigationBar { /*Faixa interna com links de navegação */
+	height: 30px;
+	width: 80%;
+	margin-left: 10%;
+	margin-top: 27px;
+	display: flex;
+	justify-content: space-between;
+}
+
+.NavigationBar a { /*Formatação para links de navegação */
+	text-decoration: none;
+	color: 	#F1F1F1;
+	font-weight:  bold;
+	font-size: 	20px;
+}
+
+.ItemNavigationBar:hover { /*Formatação para links de navegação ao passar o mouse*/
+	border-top: 3px solid #F1F1F1;
+}
+
+.ItemNavigationBarActive { /*Formatação para o link corrente*/
+	border-top: 3px solid #F1F1F1;
+}
+/*:::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::*/
+
+/*ÁREA E FORM. DE LOGIN*/
+
+#loginFrame { /*Área da tela reservada para criação do formulário de login */
+	/*background-color: #F1F1F1;
+	opacity: 0.85;*/
+	background-color: rgba(255,255,255,.85);
+	width: 50%;
+	height: 100%;
+	max-height: 100%;
+	position: absolute;
+	z-index: 10;
+}
+
+#loginBox { /* Formulário de login */
+	margin-top: 130px;
+	padding-left: 15%;
+	padding-right: 15%;
+	text-align: justify-all;
+}
+
+#loginBox h1 { /*Título principal do formulário*/
+	color: #141F49;
+	font-size: 40px;
+}
+
+#loginBox h2 { /*Subtítulo do formulário*/
+	color: #11386B;
+	font-size: 20px;
+	font-weight: initial;
+	font-style: italic;
+}
+
+/*Formatação p/ área de entrada de dados do formulário*/
+#loginBox input { 
+	height: 50px;
+	background-color: transparent;
+	border: transparent;
+	color: #11386B;
+	font-size: 15px;
+	width: 	94%;
+}
+
+#loginBox input::placeholder {
+  color: #11386B;
+  margin-left: 25px;
+}
+
+.LabelLogin {
+	width: 	100%;
+	border-bottom: solid;
+	border-color: #141F49;
+}
+
+/*Botões Formulário:::::::::::::::::::::::::::::::::::*/
+#btnLogin {
+	width: 100%;
+	background-color: #141F49;
+	color: #F1F1F1;
+	font-weight: bold;
+	padding: 15px;
+	border-radius: 50px;
+	border: transparent;
+	font-size: 25px;
+	opacity: 0px;
+	cursor: pointer;
+}
+
+#btnRegister {
+	width: 35%;
+	background-color: #11386B;
+	color: #F1F1F1;
+	padding: 8px;
+	border-radius: 50px;
+	border: transparent;
+	font-size: 17px;
+	opacity: 0px;
+	cursor: pointer;
+}
+
+#btnProblems {
+	color: #11386B;
+	width: 65%;
+	text-align: right;
+	font-size: 17px;
+}
+
+#btnsRegisterAndProblems {
+	text-align: center;
+	align-items: center;
+	display: flex;
+	justify-content: space-between;
+}
+/*:::::::::::::::::::::::::::::::::::*/
+
+/*:::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::*/
+
+/* MENU POPUP CADASTRO */
+
+#menuPopUp { /*Box externo menu popup*/
+	background-color: #F1F1F1;
+	box-shadow: inset 0 -3em 3em rgba(0,0,0,0.1),0.3em 0.3em 1em rgba(0,0,0,0.3);
+	position: absolute;
+	top: 0;
+	bottom: 0;
+	left: 0;
+	right: 0;
+	margin: auto;
+	z-index: 50;
+	width: 93%;
+	height: 93%;
+	border-radius: 50px;
+}
+
+#menuPopUp #menuPopUpLine1 { /*Primeira faixa interna do menu popup*/
+	border-radius: 50px;
+	margin-top: 2%;
+	margin-left: 2%;
+	width: 96%;
+	height: 5%;
+	font-size: 35px;
+	color: #141F49;
+	display: flex;
+	justify-content: right;
+	
+}
+
+#menuPopUp #menuPopUpLine2 { /*Segunda faixa interna do menu popup - para botões*/
+	border-radius: 50px;
+	margin-top: 5%;
+	margin-left: 10%;
+	margin-bottom: 5%;
+	width: 80%;
+	height: 70%;
+	display: flex;
+	justify-content: space-between;
+	background-size: 100%;
+	background-repeat: no-repeat;
+}
+
+/*Botões Menu PopUp:::::::::::::::::::::::::::::::::::*/
+
+.BtnPopUp {
+	width: 33.33%;
+	border-radius: 50px;
+	background-position: center;
+	cursor: pointer;
+}
+
+.BtnPopUp:hover {
+	border: 3px solid #141F49;
+}
+
+#btnPopUp1 { /*Cadastro Professores e Funcionários*/
+	background-image: url(img/btnpopup1.png);
+}
+
+#btnPopUp2 { /*Cadastro Alunos (botão do meio)*/
+	background-image: url(img/btnpopup2.png);
+	margin-left: 20px;
+	margin-right: 20px;
+}
+
+#btnPopUp3 { /*Cadastro familiares*/
+	background-image: url(img/btnpopup3.png);
+}
+
+#menuPopUpLine1 button{ /*Botão fechar menu PopUp*/
+	width: 40px;
+	height: 40px;
+	font-weight: bold;
+	background-color: #141F49;
+	color:#F1F1F1;
+	font-size: 22px;
+	border-radius: 50%;
+	cursor: pointer;
+}
+
+/*:::::::::::::::::::::::::::::::::::*/
+
+/*:::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::*/
+
+#footerOne {
+	color: #11386B;
+	font-size: 13px;
+	text-align: center;
+	font-style: italic;
+	display: block;
+}
+
