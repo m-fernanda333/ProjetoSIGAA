@@ -66,7 +66,7 @@ body {
 /*:::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::*/
 
 /* BARRA DE NAVEGAÇÃO */
-
+                
 #navigationLane{ /*Faixa Azul superior externa*/
 	background-color: #141F49;
 	position: absolute;
@@ -90,6 +90,7 @@ body {
 	color: 	#F1F1F1;
 	font-weight:  700px;
 	font-size: 	20px;
+	cursor: pointer;
 }
 
 

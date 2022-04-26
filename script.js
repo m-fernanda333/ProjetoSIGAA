@@ -6,6 +6,8 @@ Autor:  M. Fernanda Pinheiro - mfpinheiro02@gmail.com;
 ::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::*/
 
 
+
+
 function changePage1(){
 	document.getElementById('Titulo').innerHTML = 'SIGAA';
 	document.getElementById('item1').className = 'ItemNavigationBarActive';
@@ -14,6 +16,10 @@ function changePage1(){
 	document.getElementById('item4').className = 'ItemNavigationBar';
 	document.getElementById('item5').className = 'ItemNavigationBar';
 	document.getElementById('item6').className = 'ItemNavigationBar';
+    document.getElementById('bodySigaa').style.backgroundImage = "url('img/bgsigaa.png')";
+	
+	
+
 };
 
 function changePage2(){
@@ -24,6 +30,8 @@ function changePage2(){
 	document.getElementById('item4').className = 'ItemNavigationBar';
 	document.getElementById('item5').className = 'ItemNavigationBar';
 	document.getElementById('item6').className = 'ItemNavigationBar';
+	document.getElementById('bodySigaa').style.backgroundImage = "url('img/bgsipac.png')";
+	
 };
 
 function changePage3(){
@@ -34,6 +42,7 @@ function changePage3(){
 	document.getElementById('item4').className = 'ItemNavigationBar';
 	document.getElementById('item5').className = 'ItemNavigationBar';
 	document.getElementById('item6').className = 'ItemNavigationBar';
+	document.getElementById('bodySigaa').style.backgroundImage = "url('img/bgsigrh.png')";
 };
 
 function changePage4(){
@@ -44,6 +53,7 @@ function changePage4(){
 	document.getElementById('item4').className = 'ItemNavigationBarActive';
 	document.getElementById('item5').className = 'ItemNavigationBar';
 	document.getElementById('item6').className = 'ItemNavigationBar';
+	document.getElementById('bodySigaa').style.backgroundImage = "url('img/bgsigpp.png')";
 };
 
 function changePage5(){
@@ -54,6 +64,7 @@ function changePage5(){
 	document.getElementById('item4').className = 'ItemNavigationBar';
 	document.getElementById('item5').className = 'ItemNavigationBarActive';
 	document.getElementById('item6').className = 'ItemNavigationBar';
+	document.getElementById('bodySigaa').style.backgroundImage = "url('img/bgsiged.png')";
 };
 
 function changePage6(){
@@ -64,6 +75,7 @@ function changePage6(){
 	document.getElementById('item4').className = 'ItemNavigationBar';
 	document.getElementById('item5').className = 'ItemNavigationBar';
 	document.getElementById('item6').className = 'ItemNavigationBarActive';
+	document.getElementById('bodySigaa').style.backgroundImage = "url('img/bgsigaadmin.png')";
 };
 
 
