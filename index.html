@@ -7,5 +7,85 @@ Autor:  M. Fernanda Pinheiro - mfpinheiro02@gmail.com;
 
 <!DOCTYPE html>
 <html>
+	
+	<head>
+		<title>SIGAA - Login</title>
+		<meta charset="utf-8">
+		<link rel="stylesheet" type="text/css" href="style.css">
+		 <script data-search-pseudo-elements src="https://kit.fontawesome.com/f737751420.js" crossorigin="anonymous"></script>
+		<meta name= "viewport" content ="width=device-width, initial-scale=1.0 ser-scalable=no"
+		>
+	</head>
 
+	<body id="bodySigaa">
+		
+		<nav id="navigationLane"> 
+		
+			<div class="NavigationBar">	
+				 <div class="ItemNavigationBarActive"> <a href="index.html"> SIGAA </a> </div>
+				 <div class="ItemNavigationBar"> <a href="sipac.html"> SIPAC </a> </div>
+				 <div class="ItemNavigationBar"> <a href="sigrh.html"> SIGRH </a> </div>
+				 <div class="ItemNavigationBar"> <a href="sigpp.html"> SIGPP </a> </div>
+				 <div class="ItemNavigationBar"> <a href="siged.html"> SIGED </a> </div>
+				 <div class="ItemNavigationBar"> <a href="sigaadmin.html"> SIGAAdmin </a> </div>
+			</div> <!-- NavigationBar --> 
+			
+		</nav> <!-- navigationLane -->
+
+		<div id="loginFrame">	
+			
+			<div id="loginBox">
+				
+				<form action="" method="post" class="form" id="formLogin1">
+	            <h1> SIGAA </h1>
+				<br>
+				<h2> Entre em sua conta para continuar</h2>
+				<br> <br>
+	            	<div class="LabelLogin"> 
+	            		<i style="color:#141F49; font-size:25px; width: 5%;" class="fa-solid fa-user"> </i> 
+	            		<input type="text" placeholder="  Usuário"> 
+	            	</div>
+
+	            	<br>
+
+	                <div class="LabelLogin"> 
+	                	<i style="color:#141F49; font-size:25px; width: 5%;"class="fas fa-lock"></i>
+	                	<input type="password" placeholder="  Senha"> 
+	                </div>
+
+	                <br> <br> <br>
+
+	                <label> <button id="btnLogin">ENTRAR</button> </label>
+
+	                <br> <br> <br>
+
+	                <label id="btnsRegisterAndProblems"> 
+	                	<div onClick="openPopUp()" id="btnRegister">Cadastre-se </div> 
+	                	<a href=" " id="btnProblems">Problemas com o Login? </a> 
+	                </label>
+
+	                <footer id="footerOne"> 
+						<h4> SIGAA | Instituto Federal do Sudeste de MG - 3257-4100 | Copyright © <br>
+					2006-2022 - IF Sudeste MG - sig08.ifsudestemg.edu.br.sig08 - v3.32.17 </h4>
+					</footer>	
+
+				</form>
+
+			</div> <!-- loginBox -->
+			<br> <br> <br> 
+
+		</div>
+
+		<div id="menuPopUp" style="display:none">
+				<div id="menuPopUpLine1"> <button onClick="closePopUp()">&times;</button> </div>
+				<div id="menuPopUpLine2"> 
+					<a class="BtnPopUp" id="btnPopUp1" href=""> </a>
+					<a class="BtnPopUp" id="btnPopUp2" href="">  </a>
+					<a class="BtnPopUp" id="btnPopUp3" href=""> </a>
+				</div>
+		</div> 
+		
+		<script type="text/javascript" src = "script.js"></script>
+
+	</body>
 </html>
