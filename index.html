@@ -22,12 +22,12 @@ Autor:  M. Fernanda Pinheiro - mfpinheiro02@gmail.com;
 		<nav id="navigationLane"> 
 		
 			<div class="NavigationBar">	
-				 <div class="ItemNavigationBarActive"> <a href="index.html"> SIGAA </a> </div>
-				 <div class="ItemNavigationBar"> <a href="sipac.html"> SIPAC </a> </div>
-				 <div class="ItemNavigationBar"> <a href="sigrh.html"> SIGRH </a> </div>
-				 <div class="ItemNavigationBar"> <a href="sigpp.html"> SIGPP </a> </div>
-				 <div class="ItemNavigationBar"> <a href="siged.html"> SIGED </a> </div>
-				 <div class="ItemNavigationBar"> <a href="sigaadmin.html"> SIGAAdmin </a> </div>
+				 <div class="ItemNavigationBarActive" id="item1" onClick="changePage1()">  SIGAA </div>
+				 <div class="ItemNavigationBar"  id="item2" onClick="changePage2()" >  SIPAC </div>
+				 <div class="ItemNavigationBar" id="item3" onClick="changePage3()"> SIGRH  </div>
+				 <div class="ItemNavigationBar" id="item4" onClick="changePage4()"> SIGPP  </div>
+				 <div class="ItemNavigationBar" id="item5" onClick="changePage5()"> SIGED  </div>
+				 <div class="ItemNavigationBar" id="item6" onClick="changePage6()"> SIGAAdmin  </div>
 			</div> <!-- NavigationBar --> 
 			
 		</nav> <!-- navigationLane -->
@@ -37,7 +37,7 @@ Autor:  M. Fernanda Pinheiro - mfpinheiro02@gmail.com;
 			<div id="loginBox">
 				
 				<form action="" method="post" class="form" id="formLogin1">
-	            <h1> SIGAA </h1>
+	            <h1 id="Titulo"> SIGAA </h1>
 				<br>
 				<h2> Entre em sua conta para continuar</h2>
 				<br> <br>

@@ -86,14 +86,12 @@ body {
 	margin-top: 27px;
 	display: flex;
 	justify-content: space-between;
-}
-
-.NavigationBar a { /*Formatação para links de navegação */
 	text-decoration: none;
 	color: 	#F1F1F1;
 	font-weight:  700px;
 	font-size: 	20px;
 }
+
 
 .ItemNavigationBar {
 	padding-top: 3px;
