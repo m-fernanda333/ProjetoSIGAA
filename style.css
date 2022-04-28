@@ -83,7 +83,7 @@ body {
 	justify-content: space-between;
 	text-decoration: none;
 	color: 	#F1F1F1;
-	font-weight:  700px;
+	font-weight:  900px;
 	font-size: 	20px;
 	cursor: pointer;
 }
@@ -267,21 +267,24 @@ body {
 	border: 3px solid #141F49;
 }
 
-/*
-#btnPopUp1 { Cadastro Professores e Funcionários
+
+#btnPopUp1 { /*Cadastro Professores e Funcionários*/
 	background-image: url(img/btnpopup1.png);
+	
 }
 
-#btnPopUp2 { Cadastro Alunos (botão do meio)
+#btnPopUp2 { /*Cadastro Alunos (botão do meio)*/
 	background-image: url(img/btnpopup2.png);
 	margin-left: 20px;
 	margin-right: 20px;
+	
 }
 
-#btnPopUp3 { Cadastro familiares
+#btnPopUp3 { /*Cadastro familiares*/
 	background-image: url(img/btnpopup3.png);
+
 }
-*/
+
 
 #menuPopUpLine1 button{ /*Botão fechar menu PopUp*/
 	width: 40px;
