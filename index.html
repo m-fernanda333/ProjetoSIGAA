@@ -1,92 +1,76 @@
-<!--::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::
-
-Data De Modificação:  25/04;
-Autor:  M. Fernanda Pinheiro - mfpinheiro02@gmail.com;
-
-::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::-->
-
 <!DOCTYPE html>
 <html>
-	
-	<head>
-		<title>SIGAA - Login</title>
-		<meta charset="utf-8">
-		<link rel="stylesheet" type="text/css" href="style.css">
-		 <script data-search-pseudo-elements src="https://kit.fontawesome.com/f737751420.js" crossorigin="anonymous"></script>
-		<meta name= "viewport" content ="width=device-width, initial-scale=1.0 ser-scalable=no"
-		>
-		<link rel = "shortcut icon"  href = "img/favicon.ico"/>
-	</head>
 
-	<body id="bodySigaa">
-		
-		<nav id="navigationLane"> 
-		
-			<div class="NavigationBar">	
-				 <div class="ItemNavigationBarActive" id="item1" onClick="changePage1()">  SIGAA </div>
-				 <div class="ItemNavigationBar"  id="item2" onClick="changePage2()" >  SIPAC </div>
-				 <div class="ItemNavigationBar" id="item3" onClick="changePage3()"> SIGRH  </div>
-				 <div class="ItemNavigationBar" id="item4" onClick="changePage4()"> SIGPP  </div>
-				 <div class="ItemNavigationBar" id="item5" onClick="changePage5()"> SIGED  </div>
-				 <div class="ItemNavigationBar" id="item6" onClick="changePage6()"> SIGAdmin  </div>
-			</div> <!-- NavigationBar --> 
-			
-		</nav> <!-- navigationLane -->
+<head>
+	<title>SIGAA - Login</title>
+	<meta charset="utf-8">
+	<link rel="stylesheet" type="text/css" href="style.css">
+	<script data-search-pseudo-elements src="https://kit.fontawesome.com/f737751420.js"
+		crossorigin="anonymous"></script>
+	<meta name="viewport" content="width=device-width, initial-scale=1.0 ser-scalable=no">
+	<link rel="shortcut icon" href="img/favicon.ico" />
+</head>
 
-		<div id="loginFrame">	
-			
-			<div id="loginBox">
-				
-				<form action="" method="post" class="form" id="formLogin1">
-	            <h1 id="Titulo"> SIGAA </h1>
-				<br>
+<body id="bodySigaa">
+
+	<nav id="navigationLane">
+
+		<div class="NavigationBar">
+			<div class="ItemNavigationBarActive" id="item1" onClick="changePage1()"> SIGAA </div>
+			<div class="ItemNavigationBar" id="item2" onClick="changePage2()"> SIPAC </div>
+			<div class="ItemNavigationBar" id="item3" onClick="changePage3()"> SIGRH </div>
+			<div class="ItemNavigationBar" id="item4" onClick="changePage4()"> SIGPP </div>
+			<div class="ItemNavigationBar" id="item5" onClick="changePage5()"> SIGED </div>
+			<div class="ItemNavigationBar" id="item6" onClick="changePage6()"> SIGAdmin </div>
+		</div> <!-- NavigationBar -->
+
+	</nav> <!-- navigationLane -->
+
+	<div id="loginFrame">
+
+		<div id="loginBox">
+
+			<form action="" method="post" class="form" id="formLogin1">
+				<h1 id="Titulo"> SIGAA </h1>
 				<h2> Entre em sua conta para continuar</h2>
-				<br> <br>
-	            	<div class="LabelLogin"> 
-	            		<i style="color:#141F49; font-size:25px; width: 5%;" class="fa-solid fa-user"> </i> 
-	            		<input type="text" placeholder="  Usuário"> 
-	            	</div>
-
-	            	<br>
-
-	                <div class="LabelLogin"> 
-	                	<i style="color:#141F49; font-size:25px; width: 5%;"class="fas fa-lock"></i>
-	                	<input type="password" placeholder="  Senha"> 
-	                </div>
-
-	                <br> <br> <br>
-
-	                <label> <button id="btnLogin">ENTRAR</button> </label>
-
-	                <br> <br> <br>
-
-	                <label id="btnsRegisterAndProblems"> 
-	                	<div onClick="openPopUp()" id="btnRegister">Cadastre-se </div> 
-	                	<a href=" " id="btnProblems">Problemas com o Login? </a> 
-	                </label>
-
-	                <footer id="footerOne"> 
-						<h4> SIGAA | Instituto Federal do Sudeste de MG - 3257-4100 | Copyright © <br>
-					2006-2022 - IF Sudeste MG - sig08.ifsudestemg.edu.br.sig08 - v3.32.17 </h4>
-					</footer>	
-
-				</form>
-
-			</div> <!-- loginBox -->
-			<br> <br> <br> 
-
-		</div>
-
-		<div id="menuPopUp" style="display:none">
-				<div id="menuPopUpLine1"> <button onClick="closePopUp()">&times;</button> </div>
-				<div id="menuPopUpLine2"> 
-					<a class="BtnPopUp" id="btnPopUp1" href=""> </a>
-					<a class="BtnPopUp" id="btnPopUp2" href="">  </a>
-					<a class="BtnPopUp" id="btnPopUp3" href=""> </a>
+				<div class="LabelLogin">
+					<i style="color:#141F49; font-size:25px; width: 5%;" class="fa-solid fa-user"> </i>
+					<input type="text" placeholder="  Usuário">
 				</div>
-		</div> 
-		
-		<script type="text/javascript" src = "script.js"></script>
+				<br>
+				<div class="LabelLogin">
+					<i style="color:#141F49; font-size:25px; width: 5%;" class="fas fa-lock"></i>
+					<input type="password" placeholder="  Senha">
+				</div>
+				<label> <button id="btnLogin">ENTRAR</button> </label>
+				<label id="btnsRegisterAndProblems">
+					<div onClick="openPopUp()" id="btnRegister">Cadastre-se </div>
+					<a href=" " id="btnProblems">Problemas com o Login? </a>
+				</label>
 
-	</body>
+				<footer id="footerOne">
+					<h4> SIGAA | Instituto Federal do Sudeste de MG - 3257-4100 | Copyright © <br>
+						2006-2022 - IF Sudeste MG - sig08.ifsudestemg.edu.br.sig08 - v3.32.17 </h4>
+				</footer>
+
+			</form>
+
+		</div> <!-- loginBox -->
+		<br> <br> <br>
+
+	</div>
+
+	<div id="menuPopUp" style="display:none">
+		<div id="menuPopUpLine1"> <button onClick="closePopUp()">&times;</button> </div>
+		<div id="menuPopUpLine2">
+			<a class="BtnPopUp" id="btnPopUp1" href=""> </a>
+			<a class="BtnPopUp" id="btnPopUp2" href=""> </a>
+			<a class="BtnPopUp" id="btnPopUp3" href=""> </a>
+		</div>
+	</div>
+
+	<script type="text/javascript" src="script.js"></script>
+
+</body>
+
 </html>
