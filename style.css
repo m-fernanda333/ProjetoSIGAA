@@ -344,7 +344,7 @@ body {
 
 
 
-
+/*------------------------------------------------------------------------------*/
 
 
 @media only screen and (max-device-width: 995px) {
@@ -546,4 +546,157 @@ body {
 
 }/*MEDIA 670*/
 
+/*--------------------------------------------------------------------------------------*/
 
+@media (min-width: 631px) and (max-width:900px)
+{
+
+	/* BARRA DE NAVEGAÇÃO */
+  
+
+
+/*Logo indicativa de sistema*/
+#logo
+ {
+	 display:block;
+	 text-align: left;
+	 font-size: 30px;
+	 position: relative;
+	 bottom: 10px;
+	 font-weight: bold;
+	 
+
+ }
+
+
+ /*botão do menu hamburguer*/
+#botaomenu
+
+{
+	display: block;
+	position: relative;
+	left: 90%;
+	bottom: 40px;
+	font-size: 30px;
+} 
+/*janela do menu mobile que aparece quando clicado no menu hamburguer*/
+#mobile
+{
+	background-color: #141F49;
+	width: 100%;
+	height: 80vh;
+	display:none;
+	text-align: center;
+	border-radius: 15%;
+	opacity: 80%;
+}
+/*-------------------------------------------------------------------*/
+#navigationLane
+{
+	display: none;
+}
+
+#navigationLane2{ /*Faixa Azul superior externa*/
+	background-color: #141F49;
+	width: 100%;
+	height: 10%;
+	margin:0;
+	position: absolute;
+	z-index: 20;
+	display: block;
+	position: relative;
+	bottom: 2%;
+	padding-top: 2%;	
+}
+
+/*Faixa interna com links de navegação */
+.NavigationBar
+{
+	display: list-item;
+	text-align: right;
+	list-style: none;
+	border: none;
+
+	
+}
+.ItemNavigationBar 
+{
+	padding: 4.0%;	
+}
+/*Formatação para o link corrente*/
+.ItemNavigationBarActive 
+{ 
+	border: none;
+	padding: 5%;
+	font-weight: normal;	
+}
+
+#loginFrame /*area reservada para formulario de login*/
+{
+	background-color: rgba(255,255,255,.85);
+	width: 100%;
+	height: 200vh;
+	position: relative;
+	bottom: 20%;
+	padding-top: 10%;
+}
+body {
+	
+ /*fazendo com que se adeque ao tamanho */
+	height: 100vh;
+	width: 100vw;
+	background-position-x: right;
+	overflow-y: hidden;/*para evitar vazamento de página*/
+		
+}
+/*---------------------------------------------------------------------*/
+/*Formatação p/ área de entrada de dados do formulário*/
+#loginBox input { 
+	height: 30px;
+	background-color: transparent;
+	border: transparent;
+	color: #11386B;
+	font-size: 97%; /*15px*/
+	width: 	94%;
+	border: 0 none;
+    outline: 0;
+}
+
+
+/*manipulando placeholder*/
+#loginBox input::placeholder {
+	color: #11386B;
+	position: relative;
+	left: 30px;
+  }
+/*-----------------------------------------------------------------*/
+/*manipulando icones */
+#iconeUsuario
+{
+	font-size: 10px;
+	position: relative;
+	
+}
+#iconeSenha
+{
+	font-size: 10px;
+	position: relative;
+
+}
+
+#confImage { /* Bloco opaco para ajudar na edição da imagem de fundo */
+	display: none;
+}
+
+
+
+#footerOne {
+	color: #11386B;
+	font-size: 75%; /*13x*/
+	text-align: center;
+	font-style: italic;
+	display: block;
+	margin-top: 45px;
+}
+
+}/*MEDIA 670*/
