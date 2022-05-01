@@ -87,3 +87,56 @@ function closePopUp() {//ocultar menu popup no display
 	document.getElementById('menuPopUp').style.display = 'none';
 }
 
+
+//-----------------------------------------------------------------------------------//
+/*mostra o menu na forma mobile*/
+function menu_mobile()
+{
+   document.getElementById("mobile").style.display = 'block';
+   
+
+  // document.getElementById("mobile").style.backgroundColor = " #141F49"
+ 
+}
+
+/*fecha o menu mobile após escolher a opção*/
+function menu_mobile_fechar()
+{
+	    document.getElementById("mobile").style.display = "none";
+}
+
+//---------------------------------------------------------------------------------//
+/*muda o nome da logo de acordo com o sistema corrente*/
+function escreve_sigaa()
+{
+	document.getElementById("logo").innerHTML = "SIGAA";
+}
+/*muda o nome da logo de acordo com o sistema corrente*/
+function escreve_sipac()
+{
+	document.getElementById("logo").innerHTML = "SIPAC";
+}
+/*muda o nome da logo de acordo com o sistema corrente*/
+function escreve_siged()
+{
+	document.getElementById("logo").innerHTML = "SIGED";
+}
+/*muda o nome da logo de acordo com o sistema corrente*/
+function escreve_sigpp()
+{
+	document.getElementById("logo").innerHTML = "SIGPP";
+}
+/*muda o nome da logo de acordo com o sistema corrente*/
+function escreve_sigadmin()
+{
+	document.getElementById("logo").innerHTML = "SIGAdmin";
+
+}
+/*muda o nome da logo de acordo com o sistema corrente*/
+function escreve_sigrh()
+{
+	document.getElementById("logo").innerHTML = "SIGRH";
+}
+//----------------------------------------------------------------------------//
+
+
