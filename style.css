@@ -354,7 +354,7 @@ body {
 
 /*FORMATAÇÃO RESPONSIVA PARA MOBILE A PARTIR DE 640px de largura*/
 
-@media (max-device-width: 640px)
+@media (max-device-width: 630px)
 {
 
 	/* BARRA DE NAVEGAÇÃO */
