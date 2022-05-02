@@ -417,8 +417,8 @@ input:focus {
 
 #mobile { /*janela do menu mobile que aparece quando clicado no menu hamburguer*/
 	background-color: #141F49;
-	width: 100%;
-	height: auto;
+	width: 100vw;
+	height: 75vh;
 	display:none;
 	text-align: center;
 	border-radius: 15%;
