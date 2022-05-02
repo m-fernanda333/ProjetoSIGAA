@@ -430,7 +430,7 @@ input:focus
 /*janela do menu mobile que aparece quando clicado no menu hamburguer*/
 #mobile
 {
-	background-color: #091546;
+	background-color: #141F49;
 	width: 100%;
 	height: 80vh;
 	display:none;
@@ -599,7 +599,7 @@ input:focus
 	display:none;
 	text-align: center;
 	border-radius: 15%;
-	opacity: 80%;
+	opacity: 100%;
 }
 /*-------------------------------------------------------------------*/
 #navigationLane
@@ -760,7 +760,7 @@ input:focus
 	display:none;
 	text-align: center;
 	border-radius: 15%;
-	opacity: 80%;
+	opacity: 100%;
 }
 /*-------------------------------------------------------------------*/
 #navigationLane
@@ -946,7 +946,7 @@ input:focus
 	display:none;
 	text-align: center;
 	border-radius: 15%;
-	opacity: 80%;
+	opacity: 100%;
 }
 /*-------------------------------------------------------------------*/
 #navigationLane
