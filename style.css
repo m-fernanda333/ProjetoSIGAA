@@ -97,6 +97,7 @@ body {
 	margin-left: 8.5%;
 	box-shadow: inset 0 -3em 3em rgba(0,0,0,0.1),0.3em 0.3em 1em rgba(0,0,0,0.3);
 }
+
 #navigationLane2
 {
 	display: none;
@@ -433,9 +434,9 @@ input:focus
 	width: 100%;
 	height: 80vh;
 	display:none;
-	text-align: center;
+	text-align: left;
 	border-radius: 15%;
-	opacity: 80%;
+	opacity: 100%;
 }
 /*-------------------------------------------------------------------*/
 #navigationLane
