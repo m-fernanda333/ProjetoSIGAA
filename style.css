@@ -311,7 +311,7 @@ input:focus
 
 #btnPopUp1 { /*Cadastro Professores e Funcionários*/
 	background-image: url(img/btnpopup1.png);
-	border-radius: 50px;
+	overflow: hidden;
 }
 
 
@@ -320,11 +320,13 @@ input:focus
 	margin-left: 20px;
 	margin-right: 20px;
 	border-radius: 50px;
+	overflow: hidden;
 }
+
 
 #btnPopUp3 { /*Cadastro familiares*/
 	background-image: url(img/btnpopup3.png);
-	border-radius: 50px;
+	overflow: hidden;
 }
 
 #menuPopUpLine1 button{ /*Botão fechar menu PopUp*/
