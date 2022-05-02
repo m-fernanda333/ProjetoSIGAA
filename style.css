@@ -145,14 +145,9 @@ body {
 	/*background-color: #F1F1F1;
 	opacity: 0.85;*/
 	background-color: rgba(255,255,255,.85);
-    min-width: 100%;
-    min-height: 100%;
-    width: auto;
-    height: auto;
-    position: absolute;
-    top: 50%;
-    left: 50%;
-    transform: translate(-50%, -50%);
+	width: 50vw;
+	height: 100vh;
+	position: absolute;
 	z-index: 10;
 }
 
@@ -376,14 +371,13 @@ input:focus
 
 	#loginFrame { /*Área da tela reservada para criação do formulário de login */
 		background-color: rgba(255,255,255,.85);
-		min-width: 100%;
-		min-height: 100%;
-		width: auto;
-		height: auto;
+		width: 100vw;
+		height: 100vh;
+		max-width: 100vw;
+		min-width: 100vw;
+		max-height: 100vh;
+		min-height: 100vh;
 		position: absolute;
-		top: 50%;
-		left: 50%;
-		transform: translate(-50%, -50%);
 		z-index: 15;
 	}
 
@@ -495,14 +489,11 @@ input:focus
 #loginFrame /*area reservada para formulario de login*/
 {
 	background-color: rgba(255,255,255,.85);
-    min-width: 100%;
-    min-height: 100%;
-    width: auto;
-    height: auto;
-    position: absolute;
-    top: 50%;
-    left: 50%;
-    transform: translate(-50%, -50%);
+	width: 100%;
+	height: 200vh;
+	position: relative;
+	bottom: 20%;
+	padding-top: 10%;
 }
 body {
 	
@@ -661,14 +652,11 @@ input:focus
 #loginFrame /*area reservada para formulario de login*/
 {
 	background-color: rgba(255,255,255,.85);
-    min-width: 100%;
-    min-height: 100%;
-    width: auto;
-    height: auto;
-    position: absolute;
-    top: 50%;
-    left: 50%;
-    transform: translate(-50%, -50%);
+	width: 100%;
+	height: 200vh;
+	position: relative;
+	bottom: 20%;
+	padding-top: 10%;
 }
 body {
 	
@@ -1014,14 +1002,11 @@ input:focus
 #loginFrame /*area reservada para formulario de login*/
 {
 	background-color: rgba(255,255,255,.85);
-    min-width: 100%;
-    min-height: 100%;
-    width: auto;
-    height: auto;
-    position: absolute;
-    top: 50%;
-    left: 50%;
-    transform: translate(-50%, -50%);
+	width: 100%;
+	height: 200vh;
+	position: relative;
+	bottom: 10%;
+	padding-top: 10%;
 }
 body {
 	
