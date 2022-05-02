@@ -311,18 +311,29 @@ input:focus
 
 #btnPopUp1 { /*Cadastro Professores e Funcionários*/
 	background-image: url(img/btnpopup1.png);
+}
+
+#btnPopUp1 img{
 	border-radius: 50px;
 }
+
 
 #btnPopUp2 { /*Cadastro Alunos (botão do meio)*/
 	background-image: url(img/btnpopup2.png);
 	margin-left: 20px;
-	border-radius: 50px;
 	margin-right: 20px;
+}
+
+#btnPopUp2 img{
+	border-radius: 50px;
 }
 
 #btnPopUp3 { /*Cadastro familiares*/
 	background-image: url(img/btnpopup3.png);
+
+}
+
+#btnPopUp3 img{
 	border-radius: 50px;
 }
 
