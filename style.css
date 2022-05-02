@@ -76,7 +76,7 @@ body {
 
 /* BARRA DE NAVEGAÇÃO */
 
-#botaomenu
+#buttonmenu
 {
 	display: none;
 }
@@ -417,7 +417,7 @@ input:focus
 
 
  /*botão do menu hamburguer*/
-#botaomenu
+#buttonmenu
 
 {
 	display: block;
@@ -526,13 +526,13 @@ input:focus
   }
 /*-----------------------------------------------------------------*/
 /*manipulando icones */
-#iconeUsuario
+#usericon
 {
 	font-size: 10px;
 	position: relative;
 	top: 18px;
 }
-#iconeSenha
+#passwordicon
 {
 	font-size: 10px;
 	position: relative;
@@ -580,7 +580,7 @@ input:focus
 
 
  /*botão do menu hamburguer*/
-#botaomenu
+#buttonmenu
 
 {
 	display: block;
@@ -685,14 +685,14 @@ input:focus
   }
 /*-----------------------------------------------------------------*/
 /*manipulando icones */
-#iconeUsuario
+#usericon
 {
 	font-size: 10px;
 	position: relative;
 	
 	
 }
-#iconeSenha
+#passwordicon
 {
 	font-size: 10px;
 	position: relative;
@@ -741,7 +741,7 @@ input:focus
 
 
  /*botão do menu hamburguer*/
-#botaomenu
+#buttonmenu
 
 {
 	display: block;
@@ -847,14 +847,14 @@ input:focus
   }
 /*-----------------------------------------------------------------*/
 /*manipulando icones */
-#iconeUsuario
+#usericon
 {
 	position: relative;
 	top: 25px;
 	
 	
 }
-#iconeSenha
+#passwordicon
 {
     position: relative;
 	top: 25px;
@@ -927,7 +927,7 @@ input:focus
 
 
  /*botão do menu hamburguer*/
-#botaomenu
+#buttonmenu
 
 {
 	display: block;
@@ -1034,14 +1034,14 @@ input:focus
   }
 /*-----------------------------------------------------------------*/
 /*manipulando icones */
-#iconeUsuario
+#usericon
 {
 	position: relative;
 	top: 25px;
 	font-size: 50px;
 	
 }
-#iconeSenha
+#passwordicon
 {
     position: relative;
 	top: 25px;
