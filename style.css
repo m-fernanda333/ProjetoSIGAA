@@ -503,6 +503,28 @@ input:focus
     overflow: hidden;
     object-fit: fill;
 }
+
+#btnPopUp1 { /*Cadastro Professores e Funcionários*/
+	background-image: url(img/btnpopup1.png);
+	background-size: cover;
+	border-radius: 50px;
+}
+
+
+#btnPopUp2 { /*Cadastro Alunos (botão do meio)*/
+	background-image: url(img/btnpopup2.png);
+
+	background-size: cover;
+	border-radius: 50px;
+}
+
+
+#btnPopUp3 { /*Cadastro familiares*/
+	background-image: url(img/btnpopup3.png);
+	background-size: cover;
+	border-radius: 50px;
+}
+
 body {
 	
  /*fazendo com que se adeque ao tamanho */
