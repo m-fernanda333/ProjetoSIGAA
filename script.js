@@ -108,6 +108,54 @@ function menu_mobile_fechar()
 	    document.getElementById("mobile").style.display = "none";
 }
 
+function text_change1()
+{
+		var size = 	 document.getElementById("item1").style.fontSize;
+	    document.getElementById("item1").style.backgroundColor = '#040e35';
+		document.getElementById("item1").style.fontWeight = 'bold';
+		document.getElementById("item1").style.fontSize = size  - (size/2);
+}
+
+function text_change2()
+{
+		var size = 	 document.getElementById("item2").style.fontSize;
+	    document.getElementById("item2").style.backgroundColor = '#040e35';
+		document.getElementById("item2").style.fontWeight = 'bold';
+		document.getElementById("item2").style.fontSize = size  - (size/2);
+}
+
+function text_change3()
+{
+		var size = 	 document.getElementById("item3").style.fontSize;
+	    document.getElementById("item3").style.backgroundColor = '#040e35';
+		document.getElementById("item3").style.fontWeight = 'bold';
+		document.getElementById("item3").style.fontSize = size  - (size/2);
+}
+
+function text_change4()
+{
+		var size = 	 document.getElementById("item4").style.fontSize;
+	    document.getElementById("item4").style.backgroundColor = '#040e35';
+		document.getElementById("item4").style.fontWeight = 'bold';
+		document.getElementById("item4").style.fontSize = size  - (size/2);
+}
+
+function text_change5()
+{
+		var size = 	 document.getElementById("item5").style.fontSize;
+	    document.getElementById("item5").style.backgroundColor = '#040e35';
+		document.getElementById("item5").style.fontWeight = 'bold';
+		document.getElementById("item5").style.fontSize = size  - (size/2);
+}
+
+function text_change6()
+{
+		var size = 	 document.getElementById("item6").style.fontSize;
+	    document.getElementById("item6").style.backgroundColor = '#040e35';
+		document.getElementById("item6").style.fontWeight = 'bold';
+		document.getElementById("item6").style.fontSize = size  - (size/2);
+}
+
 //---------------------------------------------------------------------------------//
 /*muda o nome da logo de acordo com o sistema corrente*/
 function escreve_sigaa()
