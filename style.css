@@ -114,10 +114,14 @@ body {
 	font-weight:  900px;
 	font-size: 	129%; /*20px*/
 	cursor: pointer;
+	position: relative;
+	left: 55px;
+
 }
 
 .ItemNavigationBar {
 	padding-top: 3px;
+
 }
 
 .ItemNavigationBar:hover { /*Formatação para links de navegação ao passar o mouse*/
@@ -415,6 +419,7 @@ input:focus {
 	left: 90%;
 	bottom: 40px;
 	font-size: 30px;
+	
 } 
 
 #mobile { /*janela do menu mobile que aparece quando clicado no menu hamburguer*/
@@ -425,6 +430,8 @@ input:focus {
 	display:none;
 	text-align: center;
 	opacity: 100%;
+	position: relative;
+	right: 55px;
 }
 
 #navigationLane {
@@ -451,6 +458,8 @@ input:focus {
 	text-align: right;
 	list-style: none;
 	border: none;
+	
+	
 
 	
 }
@@ -615,7 +624,8 @@ input:focus
 	height: auto;
 	display:none;
 	text-align: center;
-
+    position: relative;
+	right: 55px;
 	opacity: 100%;
 }
 /*-------------------------------------------------------------------*/
@@ -749,7 +759,6 @@ input:focus
 	/* BARRA DE NAVEGAÇÃO */
   
 
-
 /*Logo indicativa de sistema*/
 #logo
  {
@@ -770,9 +779,12 @@ input:focus
 {
 	display: block;
 	position: relative;
-	left: 80%;
+	left: 70%;
 	bottom: 40px;
 	font-size: 35px;
+
+
+	
 } 
 /*janela do menu mobile que aparece quando clicado no menu hamburguer*/
 #mobile
@@ -782,7 +794,8 @@ input:focus
 	height: 60vh;
 	display:none;
 	text-align: center;
-	
+	position: relative;
+	right: 55px;
 	opacity: 100%;
 }
 /*-------------------------------------------------------------------*/
