@@ -768,6 +768,8 @@ input:focus
 	 position: relative;
 	 bottom: 10px;
 	 font-weight: bold;
+	 position: relative;
+	 right: 50px;
 	 
 
  }
@@ -779,9 +781,9 @@ input:focus
 {
 	display: block;
 	position: relative;
-	left: 70%;
+	left: 65%;
 	bottom: 40px;
-	font-size: 35px;
+	font-size: 25px;
 
 
 	
