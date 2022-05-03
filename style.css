@@ -77,6 +77,7 @@ body {
 /* BARRA DE NAVEGAÇÃO */
 
 #buttonmenu
+{
 	display: none;
 }
 
