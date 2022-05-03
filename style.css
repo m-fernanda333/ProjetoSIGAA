@@ -12,9 +12,9 @@ Paleta de cores:
 
 
 /* PADRÕES SEM IDENTIFICADOR VÁLIDOS E/OU VÁLIDOS TODO O ESCOPO */
-
-* { 
-	margin: 0;
+      
+* {     
+	margin: 0;    
 	padding: 0;
 	font-family: Roboto, sans-serif;
 }
@@ -76,7 +76,7 @@ body {
 
 /* BARRA DE NAVEGAÇÃO */
 
-#botaomenu {
+#buttonmenu
 	display: none;
 }
 
@@ -407,7 +407,8 @@ input:focus {
 	 font-weight: bold;
  }
 
-#botaomenu {  /*botão do menu hamburguer*/
+#buttonmenu
+  {
 	display: block;
 	position: relative;
 	left: 90%;
@@ -542,13 +543,13 @@ input:focus
   }
 /*-----------------------------------------------------------------*/
 /*manipulando icones */
-#iconeUsuario
+#usericon
 {
 	font-size: 10px;
 	position: relative;
 	top: 18px;
 }
-#iconeSenha
+#passwordicon
 {
 	font-size: 10px;
 	position: relative;
@@ -596,7 +597,7 @@ input:focus
 
 
  /*botão do menu hamburguer*/
-#botaomenu
+#buttonmenu
 
 {
 	display: block;
@@ -707,14 +708,14 @@ input:focus
   }
 /*-----------------------------------------------------------------*/
 /*manipulando icones */
-#iconeUsuario
+#usericon
 {
 	font-size: 10px;
 	position: relative;
 	
 	
 }
-#iconeSenha
+#passwordicon
 {
 	font-size: 10px;
 	position: relative;
@@ -763,7 +764,7 @@ input:focus
 
 
  /*botão do menu hamburguer*/
-#botaomenu
+#buttonmenu
 
 {
 	display: block;
@@ -877,14 +878,14 @@ input:focus
   }
 /*-----------------------------------------------------------------*/
 /*manipulando icones */
-#iconeUsuario
+#usericon
 {
 	position: relative;
 	top: 25px;
 	
 	
 }
-#iconeSenha
+#passwordicon
 {
     position: relative;
 	top: 25px;
@@ -957,7 +958,7 @@ input:focus
 
 
  /*botão do menu hamburguer*/
-#botaomenu
+#buttonmenu
 
 {
 	display: block;
@@ -1064,14 +1065,14 @@ input:focus
   }
 /*-----------------------------------------------------------------*/
 /*manipulando icones */
-#iconeUsuario
+#usericon
 {
 	position: relative;
 	top: 25px;
 	font-size: 50px;
 	
 }
-#iconeSenha
+#passwordicon
 {
     position: relative;
 	top: 25px;
