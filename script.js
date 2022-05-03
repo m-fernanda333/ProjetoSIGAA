@@ -92,8 +92,11 @@ function closePopUp() {//ocultar menu popup no display
 /*mostra o menu na forma mobile*/
 function menu_mobile()
 {
-   document.getElementById("mobile").style.display = 'block';
-   
+  if(document.getElementById("mobile").style.display == 'block'){
+	document.getElementById("mobile").style.display = 'none';
+  }else{
+	document.getElementById("mobile").style.display = 'block';
+  };
 
   // document.getElementById("mobile").style.backgroundColor = " #141F49"
  

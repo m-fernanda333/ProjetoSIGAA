@@ -77,12 +77,10 @@ body {
 /* BARRA DE NAVEGAÇÃO */
 
 #buttonmenu
-{
 	display: none;
 }
 
-#logo
-{
+#logo {
 	display: none;
 }
                 
@@ -97,8 +95,8 @@ body {
 	margin-left: 8.5%;
 	box-shadow: inset 0 -3em 3em rgba(0,0,0,0.1),0.3em 0.3em 1em rgba(0,0,0,0.3);
 }
-#navigationLane2
-{
+
+#navigationLane2 {
 	display: none;
 }
 
@@ -106,7 +104,7 @@ body {
 .NavigationBar { /*Faixa interna com links de navegação */
 	height: 45%;
 	width: 80%;
-	margin-left: 10%;
+	
 	margin-top: 25px;
 	display: flex;
 	justify-content: space-between;
@@ -132,8 +130,6 @@ body {
 	padding-top: 3px;
 }
 
-
-/*:::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::*/
 
 /*:::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::*/
 
@@ -181,8 +177,7 @@ body {
 	width: 	94%;
 }
 
-input:focus
-{
+input:focus {
     box-shadow: 0 0 0 0;
     outline: 0;
 }
@@ -310,17 +305,24 @@ input:focus
 
 #btnPopUp1 { /*Cadastro Professores e Funcionários*/
 	background-image: url(img/btnpopup1.png);
+	background-size: cover;
+	border-radius: 50px;
 }
+
 
 #btnPopUp2 { /*Cadastro Alunos (botão do meio)*/
 	background-image: url(img/btnpopup2.png);
 	margin-left: 20px;
 	margin-right: 20px;
+	background-size: cover;
+	border-radius: 50px;
 }
+
 
 #btnPopUp3 { /*Cadastro familiares*/
 	background-image: url(img/btnpopup3.png);
-
+	background-size: cover;
+	border-radius: 50px;
 }
 
 #menuPopUpLine1 button{ /*Botão fechar menu PopUp*/
@@ -338,6 +340,8 @@ input:focus
 
 /*:::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::*/
 
+/*RODAPÉ*/
+
 #footerOne {
 	color: #11386B;
 	font-size: 80%; /*13x*/
@@ -348,10 +352,10 @@ input:focus
 }
 
 
+/*:::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::*/
 
 
-/*------------------------------------------------------------------------------*/
-
+/*RESPONSIVIDADE*/
 
 @media only screen and (max-device-width: 995px) {
 
@@ -377,76 +381,59 @@ input:focus
 		margin-top: 21%; 
 	}
 
-
-
 	.NavigationBar { /*Faixa interna com links de navegação */
 		width: 90%;
 		margin-left: 5%;
 
 	}
 
-}/*MEDIA 870*/
+}/*MEDIA 995*/
 
 
-/*:::::::::::::::::::::::::::::::::::::::::::
 /*:::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::*/
 
 
+@media (max-device-width: 630px){
 
-/*FORMATAÇÃO RESPONSIVA PARA MOBILE A PARTIR DE 640px de largura*/
-
-@media (max-device-width: 630px)
-{
-
-	/* BARRA DE NAVEGAÇÃO */
+/* BARRA DE NAVEGAÇÃO */
   
 
-
-/*Logo indicativa de sistema*/
-#logo
- {
+#logo  { /*Logo indicativa de sistema*/
 	 display:block;
 	 text-align: left;
 	 font-size: 30px;
 	 position: relative;
 	 bottom: 10px;
 	 font-weight: bold;
-	 
-
  }
 
-
- /*botão do menu hamburguer*/
 #buttonmenu
-
-{
+  {
 	display: block;
 	position: relative;
 	left: 90%;
 	bottom: 40px;
 	font-size: 30px;
 } 
-/*janela do menu mobile que aparece quando clicado no menu hamburguer*/
-#mobile
-{
+
+#mobile { /*janela do menu mobile que aparece quando clicado no menu hamburguer*/
 	background-color: #141F49;
-	width: 100%;
-	height: 80vh;
+	align-content: left;
+	width: 100vw;
+	height: auto;
 	display:none;
 	text-align: center;
-	border-radius: 15%;
-	opacity: 80%;
+	opacity: 100%;
 }
-/*-------------------------------------------------------------------*/
-#navigationLane
-{
+
+#navigationLane {
 	display: none;
 }
 
 #navigationLane2{ /*Faixa Azul superior externa*/
-	background-color: #141F49;
-	width: 100%;
-	height: 10%;
+	
+	width: 0;
+	height: 10vh;
 	margin:0;
 	position: absolute;
 	z-index: 20;
@@ -468,25 +455,55 @@ input:focus
 }
 .ItemNavigationBar 
 {
-	padding: 5%;	
+	padding: 5%;
+	border: 5%;		
 }
 /*Formatação para o link corrente*/
 .ItemNavigationBarActive 
 { 
 	border: none;
+	border: 5%;	
 	padding: 5%;
 	font-weight: normal;	
 }
 
+#item1,#item2,#item3,#item4,#item5{
+	border-bottom: 3px solid #F1F1F1;
+	}
+
 #loginFrame /*area reservada para formulario de login*/
 {
 	background-color: rgba(255,255,255,.85);
-	width: 100%;
-	height: 200vh;
-	position: relative;
-	bottom: 20%;
-	padding-top: 10%;
+	position: absolute;
+    top: 0;
+    bottom: 0;
+    width: 100%;
+    height: 100%;
+    overflow: hidden;
+    object-fit: fill;
 }
+
+#btnPopUp1 { /*Cadastro Professores e Funcionários*/
+	background-image: url(img/btnpopup1.png);
+	background-size: cover;
+	border-radius: 50px;
+}
+
+
+#btnPopUp2 { /*Cadastro Alunos (botão do meio)*/
+	background-image: url(img/btnpopup2.png);
+
+	background-size: cover;
+	border-radius: 50px;
+}
+
+
+#btnPopUp3 { /*Cadastro familiares*/
+	background-image: url(img/btnpopup3.png);
+	background-size: cover;
+	border-radius: 50px;
+}
+
 body {
 	
  /*fazendo com que se adeque ao tamanho */
@@ -594,11 +611,11 @@ input:focus
 {
 	background-color: #141F49;
 	width: 100%;
-	height: 80vh;
+	height: auto;
 	display:none;
 	text-align: center;
-	border-radius: 15%;
-	opacity: 80%;
+
+	opacity: 100%;
 }
 /*-------------------------------------------------------------------*/
 #navigationLane
@@ -632,23 +649,29 @@ input:focus
 .ItemNavigationBar 
 {
 	padding: 4.0%;	
+
 }
 /*Formatação para o link corrente*/
 .ItemNavigationBarActive 
 { 
 	border: none;
 	padding: 5%;
+	
 	font-weight: normal;	
 }
-
+#item1,#item2,#item3,#item4,#item5{
+	border-bottom: 3px solid #F1F1F1;
+	}
 #loginFrame /*area reservada para formulario de login*/
 {
 	background-color: rgba(255,255,255,.85);
-	width: 100%;
-	height: 200vh;
-	position: relative;
-	bottom: 20%;
-	padding-top: 10%;
+	position: absolute;
+    top: 0;
+    bottom: 0;
+    width: 100%;
+    height: 100%;
+    overflow: hidden;
+    object-fit: fill;
 }
 body {
 	
@@ -755,11 +778,11 @@ input:focus
 {
 	background-color: #141F49;
 	width: 100%;
-	height: 80vh;
+	height: 60vh;
 	display:none;
 	text-align: center;
-	border-radius: 15%;
-	opacity: 80%;
+	
+	opacity: 100%;
 }
 /*-------------------------------------------------------------------*/
 #navigationLane
@@ -792,24 +815,32 @@ input:focus
 }
 .ItemNavigationBar 
 {
-	padding: 8%;	
+	padding: 8%;
+	border: 8%;	
 }
 /*Formatação para o link corrente*/
 .ItemNavigationBarActive 
 { 
 	border: none;
 	padding: 5%;
+	border:5%;
 	font-weight: normal;	
 }
+#item1,#item2,#item3,#item4,#item5{
+	border-bottom: 3px solid #F1F1F1;
+	}
 
 #loginFrame /*area reservada para formulario de login*/
 {
 	background-color: rgba(255,255,255,.85);
-	width: 100%;
-	height: 200vh;
-	position: relative;
-	bottom: 10%;
-	padding-top: 10%;
+    min-width: 100%;
+    min-height: 100%;
+    width: auto;
+    height: auto;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
 }
 body {
 	
@@ -945,7 +976,7 @@ input:focus
 	display:none;
 	text-align: center;
 	border-radius: 15%;
-	opacity: 80%;
+	opacity: 100%;
 }
 /*-------------------------------------------------------------------*/
 #navigationLane
