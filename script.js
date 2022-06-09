@@ -4,14 +4,28 @@ Data De Modificação:  25/04;
 Autor:  M. Fernanda Pinheiro - mfpinheiro02@gmail.com;
 
 ::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::*/
+var imagem = document.getElementById('imgLB');
+
 
 
 function darkMode(){
 
-	if(document.getElementById('imgLB').src == "./img/lampada_on.png")
-		document.getElementById('imgLB').src = "./img/lampada_off.png";
+	if(imagem.getAttribute("src").localeCompare("./img/lampada_on.png")==0)
+		ativaDarkMode();
 	else
-		document.getElementById('imgLB').src = "./img/lampada_on.png";
+		desativaDarkMode();
+};
+
+
+function ativaDarkMode(){
+
+	document.getElementById('imgLB').src = "./img/lampada_off.png";
+
+};
+
+function desativaDarkMode(){
+
+	document.getElementById('imgLB').src = "./img/lampada_on.png";
 
 };
 
