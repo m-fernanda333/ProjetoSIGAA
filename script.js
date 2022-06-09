@@ -6,7 +6,14 @@ Autor:  M. Fernanda Pinheiro - mfpinheiro02@gmail.com;
 ::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::*/
 
 
+function darkMode(){
 
+	if(document.getElementById('imgLB').src == "./img/lampada_on.png")
+		document.getElementById('imgLB').src = "./img/lampada_off.png";
+	else
+		document.getElementById('imgLB').src = "./img/lampada_on.png";
+
+};
 
 function changePage1(){
 	document.getElementById('Titulo').innerHTML = 'SIGAA';
