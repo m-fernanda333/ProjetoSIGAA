@@ -2,6 +2,7 @@
 
 Data De Modificação:  25/04;
 <<<<<<< HEAD
+<<<<<<< HEAD
 Autor:  M. Fernanda Pinheiro - mfpinheiro02@gmail.com;
 
 ::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::*/
@@ -134,6 +135,9 @@ function desativaDarkMode(){
 =======
 Autor:  M. Fernanda Pinheiro - mfpinheiro02@gmail.com;*/
 >>>>>>> aa20e80a52109ec630a480f80cc7d4d6be4b67aa
+=======
+Autor:  M. Fernanda Pinheiro - mfpinheiro02@gmail.com;*/
+>>>>>>> aa20e80a52109ec630a480f80cc7d4d6be4b67aa
 function changePage1(){
 	document.getElementById('Titulo').innerHTML = 'SIGAA';
 	document.getElementById('item1').className = 'ItemNavigationBarActive';
@@ -153,6 +157,9 @@ function changePage1(){
 	//evento para quando for clicado alterar para o modo dark mode
 	document.getElementById('DarkMode').addEventListener("click",darkMode_imagens1);
 	
+<<<<<<< HEAD
+>>>>>>> aa20e80a52109ec630a480f80cc7d4d6be4b67aa
+=======
 >>>>>>> aa20e80a52109ec630a480f80cc7d4d6be4b67aa
 	
 	
@@ -193,9 +200,15 @@ function changePage3(){
 	if(isDarkModeActive == 0)
 	document.getElementById('bodySigaa').style.backgroundImage = "url('img/bgsigrh.png')";
 <<<<<<< HEAD
+<<<<<<< HEAD
 else
 	 document.getElementById('bodySigaa').style.backgroundImage = "url(img/bgsigrhDARK.jpeg)";
 	idImagem = 3;
+=======
+	//evento para quando for clicado alterar para o modo dark mode
+	document.getElementById('DarkMode').addEventListener("click",darkMode_imagens3);
+
+>>>>>>> aa20e80a52109ec630a480f80cc7d4d6be4b67aa
 =======
 	//evento para quando for clicado alterar para o modo dark mode
 	document.getElementById('DarkMode').addEventListener("click",darkMode_imagens3);
@@ -223,6 +236,9 @@ function changePage4(){
 	//evento para quando for clicado alterar para o modo dark mode
 	document.getElementById('DarkMode').addEventListener("click",darkMode_imagens4);
 
+<<<<<<< HEAD
+>>>>>>> aa20e80a52109ec630a480f80cc7d4d6be4b67aa
+=======
 >>>>>>> aa20e80a52109ec630a480f80cc7d4d6be4b67aa
 };
 
@@ -237,9 +253,15 @@ function changePage5(){
 	if(isDarkModeActive == 0)
 	document.getElementById('bodySigaa').style.backgroundImage = "url('img/bgsiged.png')";
 <<<<<<< HEAD
+<<<<<<< HEAD
 else
 	 document.getElementById('bodySigaa').style.backgroundImage = "url(img/bgsigedDARK.jpeg)";
 	idImagem = 5;
+=======
+	//evento para quando for clicado alterar para o modo dark mode
+	document.getElementById('DarkMode').addEventListener("click",darkMode_imagens5);
+
+>>>>>>> aa20e80a52109ec630a480f80cc7d4d6be4b67aa
 =======
 	//evento para quando for clicado alterar para o modo dark mode
 	document.getElementById('DarkMode').addEventListener("click",darkMode_imagens5);
@@ -258,10 +280,13 @@ function changePage6(){
 	if(isDarkModeActive == 0)
 	document.getElementById('bodySigaa').style.backgroundImage = "url('img/bgsigaadmin.png')";
 <<<<<<< HEAD
+<<<<<<< HEAD
 else
 	 document.getElementById('bodySigaa').style.backgroundImage = "url(img/bgsigaadminDARK.jpeg)";
 	idImagem = 6;
 =======
+=======
+>>>>>>> aa20e80a52109ec630a480f80cc7d4d6be4b67aa
 	
 	//evento para quando for clicado alterar para o modo dark mode
 	document.getElementById('DarkMode').addEventListener("click",darkMode_imagens6);
@@ -270,6 +295,9 @@ else
 
 		
 	
+<<<<<<< HEAD
+>>>>>>> aa20e80a52109ec630a480f80cc7d4d6be4b67aa
+=======
 >>>>>>> aa20e80a52109ec630a480f80cc7d4d6be4b67aa
 };
 
