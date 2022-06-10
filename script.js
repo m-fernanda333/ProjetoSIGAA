@@ -17,7 +17,7 @@ function changePage1(){
 	
 	
 
-};
+};     
 
 function changePage2(){
 	document.getElementById('Titulo').innerHTML = 'SIPAC';
