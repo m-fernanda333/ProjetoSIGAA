@@ -12,7 +12,7 @@ Paleta de cores:
 
 
 /* PADRÕES SEM IDENTIFICADOR VÁLIDOS E/OU VÁLIDOS TODO O ESCOPO */
-
+      
 * {     
 	margin: 0;    
 	padding: 0;
@@ -72,11 +72,11 @@ body {
 
 #BtnDarkMode{
 
-	background-color: #141F49;
+	background-color: black;
 	opacity: 100%;
 	width: 5%;
 	height: 10%;
-	right: 5%;
+	right: 15%;
 	bottom:0px;
 	position:fixed;
 	border-top-left-radius: 10%;
@@ -99,10 +99,7 @@ body {
 };
 
 #imgLb{
-	top: 0px;
-	bottom: 0px;
-	left: 0px;
-	right: 0px;
+	max-width: 10px;
 };
 
 /*:::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::*/
@@ -222,7 +219,7 @@ input:focus {
 }
 
 #loginBox input::placeholder {
-  color: var(--check-secondary, #11386B);
+  color: #11386B;
   margin-left: 25px;
 }
 
@@ -581,7 +578,7 @@ input:focus
 
 /*manipulando placeholder*/
 #loginBox input::placeholder {
-	color: var(--check-secondary, #11386B);
+	color: #11386B;
 	position: relative;
 	left: 30px;
   }
@@ -747,7 +744,7 @@ input:focus
 
 /*manipulando placeholder*/
 #loginBox input::placeholder {
-	color: var(--check-secondary, #11386B);
+	color: #11386B;
 	position: relative;
 	left: 30px;
   }
@@ -922,7 +919,7 @@ input:focus
 /*manipulando placeholder*/
 #loginBox input::placeholder
  {
-	color: var(--check-secondary, #11386B);
+	color: #11386B;
 	position: relative;
 	left: 35px;
   }
@@ -1109,7 +1106,7 @@ input:focus
 /*manipulando placeholder*/
 #loginBox input::placeholder
  {
-	color:var(--check-secondary, #11386B);
+	color: #11386B;
 	position: relative;
 	left: 35px;
   }
