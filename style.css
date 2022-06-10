@@ -43,7 +43,7 @@ body {
 	height: 100vh;
 	margin-left: 50vw;
 	position: absolute;
-	/*z-index: 10;*/
+	z-index: 10;
 }
 
 #bodySigaa{
@@ -87,7 +87,20 @@ body {
 }
 
 
+#BtnDarkMode:hover{
 
+	cursor:pointer;
+	border-top: 5px solid #DBA838;
+	border-right: 5px solid #DBA838;
+	border-left: 5px solid #DBA838;
+	width: 6.5%;
+	height: 12%;
+	transition: width, height, 500ms,ease-in-out;
+};
+
+#imgLb{
+	max-width: 10px;
+};
 
 /*:::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::*/
 
@@ -266,67 +279,6 @@ input:focus {
 	justify-content: space-between;
 }
 /*:::::::::::::::::::::::::::::::::::*/
-/*:::::::::::::::BOTAO DARK MODE::::::::::::::::::::*/
-
-#DarkMode {
-	cursor: pointer;
-	display: inline-block;
-	width: 4vw;
-	height: 7vh;
-	position: fixed;
-	left: 90%;
-	top: 93%;
-	border-top: solid 10px #DBA838;
-    border-top-left-radius:20% ;
-	border-top-right-radius:20% ;	
-	background-color: white;
-	
-}
-
-#DarkMode:hover {
-	border-left: 0.5px solid #DBA838;
-	border-right:  0.5px solid #DBA838;
-}
-
-#LightMode {
-	cursor: pointer;
-	display: none;
-	width: 4vw;
-	height: 7vh;
-	position: fixed;
-	left: 90%;
-	top: 93%;
-	border-top: solid 10px #DBA838;
-    border-top-left-radius:20% ;
-	border-top-right-radius:20% ;	
-	background-color: white;
-}
-
-#LightMode:hover {
-	border-left: 0.5px solid #DBA838;
-	border-right:  0.5px solid #DBA838;
-}
-
-#moon {
-	position: relative;
-	left: 35%;
-	top: 13%;
-	font-size: 21px;
-	color:#141F49;
-	cursor: pointer;
-}
-
-#sun {
-	position: relative;
-	left: 32%;
-	top: 13%;
-	font-size: 21px;
-	color:#141F49;
-	cursor: pointer;
-}
-
-
-
 
 
 /*:::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::*/
@@ -1217,5 +1169,4 @@ input:focus
 
 
 }
-
 
