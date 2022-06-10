@@ -6,7 +6,9 @@ Autor:  M. Fernanda Pinheiro - mfpinheiro02@gmail.com;
 ::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::*/
 var imagem = document.getElementById('imgLB');
 
+var idImagem = 1;
 
+var isDarkModeActive = 0;
 
 function darkMode(){
 
@@ -19,13 +21,112 @@ function darkMode(){
 
 function ativaDarkMode(){
 
+	isDarkModeActive = 1;
+
 	document.getElementById('imgLB').src = "./img/lampada_off.png";
+
+	document.getElementById('Titulo').style.color = "#FFF";
+	
+	document.getElementById('navigationLane').style.backgroundColor = "rgba(10, 10, 10)";
+	document.getElementById('navigationLane2').style.backgroundColor = "rgba(10, 10, 10)";
+	document.getElementById('loginFrame').style.backgroundColor = "rgba(10, 10, 10,0.8)";
+	document.getElementById('confImage').style.display = "none";
+	
+	if(idImagem == 1)
+		document.getElementById('bodySigaa').style.backgroundImage = "url(img/bgsigaaDARK.jpeg)";
+		
+	if(idImagem == 2)
+		document.getElementById('bodySigaa').style.backgroundImage = "url(img/bgsipacDARK.jpeg)";
+				
+	if(idImagem == 3)
+		document.getElementById('bodySigaa').style.backgroundImage = "url(img/bgsigrhDARK.jpeg)";
+					
+	if(idImagem == 4)
+		document.getElementById('bodySigaa').style.backgroundImage = "url(img/bgsigppDARK.jpeg)";
+				
+	if(idImagem == 5)
+		document.getElementById('bodySigaa').style.backgroundImage = "url(img/bgsigedDARK.jpeg)";
+
+	if(idImagem == 6)
+		document.getElementById('bodySigaa').style.backgroundImage = "url(img/bgsigaadminDARK.jpeg)";
+
+	document.getElementById('btnProblems').style.color = "#FFF";
+	document.getElementById('btnRegister').style.color = "rgba(10, 10, 10)";
+
+	document.getElementById('btnLogin').style.color = "rgba(10, 10, 10)";
+	document.getElementById('SubTitulo').style.color = "#FFF";
+	document.getElementById('FooterTwo').style.color = "#FFF";
+	document.getElementById('btnLogin').style.backgroundColor = "#DBA838"
+	
+	document.getElementById('lblLogin1').style.borderColor = "#FFF";
+	document.getElementById('inputLogin1').style.color = "#FFF";
+	document.getElementById('iconeLogin1').style.color = "#FFF";
+
+	document.getElementById('lblLogin1').style.borderColor = "#FFF";
+	
+	document.getElementById('inputLogin1').style.setProperty("--check-secondary", "#F1F1F1");
+
+	document.getElementById('iconeLogin1').style.color = "#FFF";
+
+	document.getElementById('lblLogin2').style.borderColor = "#FFF";
+	
+	document.getElementById('inputLogin2').style.setProperty("--check-secondary", "#F1F1F1");
+
+	document.getElementById('iconeLogin2').style.color = "#FFF";
+	
 
 };
 
 function desativaDarkMode(){
 
+	isDarkModeActive = 0;
+
 	document.getElementById('imgLB').src = "./img/lampada_on.png";
+
+	document.getElementById('Titulo').style.color = "#141F49";
+
+	document.getElementById('navigationLane').style.backgroundColor = "#141F49";
+	document.getElementById('navigationLane2').style.backgroundColor = "#141F49";
+	document.getElementById('loginFrame').style.backgroundColor = "#FFFFFFD9";
+	if(idImagem == 1)
+		document.getElementById('bodySigaa').style.backgroundImage = "url(img/bgsigaa.png)";
+	if(idImagem == 2)
+		document.getElementById('bodySipac').style.backgroundImage = "url(img/bgsipac.png)";
+	if(idImagem == 3)
+		document.getElementById('bodySigrh').style.backgroundImage = "url(img/bgsigrh.png)";
+	if(idImagem == 2)
+		document.getElementById('bodySigpp').style.backgroundImage = "url(img/bgsigpp.png)";
+	if(idImagem == 5)
+		document.getElementById('bodySiged').style.backgroundImage = "url(img/bgsiged.png)";
+	if(idImagem == 6)
+		document.getElementById('bodySigaAdmin').style.backgroundImage = "url(img/bgsigaadmin.png)";
+	
+	document.getElementById('confImage').style.display = "inline-block";
+
+	document.getElementById('btnProblems').style.color = "#11386B";
+	document.getElementById('btnRegister').style.color = "#141F49";
+
+	document.getElementById('btnLogin').style.color = "#F1F1F1";
+	document.getElementById('SubTitulo').style.color = "#11386B";
+	document.getElementById('FooterTwo').style.color = "#11386B";
+	document.getElementById('btnLogin').style.backgroundColor = "#141F49"
+	
+	document.getElementById('lblLogin1').style.borderColor = "#141F49";
+	document.getElementById('inputLogin1').style.color = "#141F49";
+	document.getElementById('iconeLogin1').style.color = "#141F49";
+
+	document.getElementById('lblLogin1').style.borderColor = "#141F49";
+	
+	document.getElementById('inputLogin1').style.setProperty("--check-secondary", "#141F49");
+
+	document.getElementById('iconeLogin1').style.color = "#141F49";
+
+	document.getElementById('lblLogin2').style.borderColor = "#141F49";
+	
+	document.getElementById('inputLogin2').style.setProperty("--check-secondary", "#141F49");
+
+	document.getElementById('iconeLogin2').style.color = "#141F49";
+
 
 };
 
@@ -37,7 +138,11 @@ function changePage1(){
 	document.getElementById('item4').className = 'ItemNavigationBar';
 	document.getElementById('item5').className = 'ItemNavigationBar';
 	document.getElementById('item6').className = 'ItemNavigationBar';
-    document.getElementById('bodySigaa').style.backgroundImage = "url('img/bgsigaa.png')";
+	if(isDarkModeActive == 0)
+   		document.getElementById('bodySigaa').style.backgroundImage = "url('img/bgsigaa.png')";
+	else
+		document.getElementById('bodySigaa').style.backgroundImage = "url(img/bgsigaaDARK.jpeg)";
+	idImagem = 1;
 	
 	
 
@@ -51,8 +156,11 @@ function changePage2(){
 	document.getElementById('item4').className = 'ItemNavigationBar';
 	document.getElementById('item5').className = 'ItemNavigationBar';
 	document.getElementById('item6').className = 'ItemNavigationBar';
-	document.getElementById('bodySigaa').style.backgroundImage = "url('img/bgsipac.png')";
-	
+	if(isDarkModeActive == 0)
+		document.getElementById('bodySigaa').style.backgroundImage = "url('img/bgsipac.png')";
+	else
+ 		document.getElementById('bodySigaa').style.backgroundImage = "url(img/bgsipacDARK.jpeg)";
+	idImagem = 2;
 };
 
 function changePage3(){
@@ -63,7 +171,11 @@ function changePage3(){
 	document.getElementById('item4').className = 'ItemNavigationBar';
 	document.getElementById('item5').className = 'ItemNavigationBar';
 	document.getElementById('item6').className = 'ItemNavigationBar';
+	if(isDarkModeActive == 0)
 	document.getElementById('bodySigaa').style.backgroundImage = "url('img/bgsigrh.png')";
+else
+	 document.getElementById('bodySigaa').style.backgroundImage = "url(img/bgsigrhDARK.jpeg)";
+	idImagem = 3;
 };
 
 function changePage4(){
@@ -74,7 +186,12 @@ function changePage4(){
 	document.getElementById('item4').className = 'ItemNavigationBarActive';
 	document.getElementById('item5').className = 'ItemNavigationBar';
 	document.getElementById('item6').className = 'ItemNavigationBar';
-	document.getElementById('bodySigaa').style.backgroundImage = "url('img/bgsigpp.png')";
+	if(isDarkModeActive == 0)
+		document.getElementById('bodySigaa').style.backgroundImage = "url('img/bgsigpp.png')";
+	else
+	 	document.getElementById('bodySigaa').style.backgroundImage = "url(img/bgsigppDARK.jpeg)";
+
+	idImagem = 4;
 };
 
 function changePage5(){
@@ -85,7 +202,11 @@ function changePage5(){
 	document.getElementById('item4').className = 'ItemNavigationBar';
 	document.getElementById('item5').className = 'ItemNavigationBarActive';
 	document.getElementById('item6').className = 'ItemNavigationBar';
+	if(isDarkModeActive == 0)
 	document.getElementById('bodySigaa').style.backgroundImage = "url('img/bgsiged.png')";
+else
+	 document.getElementById('bodySigaa').style.backgroundImage = "url(img/bgsigedDARK.jpeg)";
+	idImagem = 5;
 };
 
 function changePage6(){
@@ -96,7 +217,11 @@ function changePage6(){
 	document.getElementById('item4').className = 'ItemNavigationBar';
 	document.getElementById('item5').className = 'ItemNavigationBar';
 	document.getElementById('item6').className = 'ItemNavigationBarActive';
+	if(isDarkModeActive == 0)
 	document.getElementById('bodySigaa').style.backgroundImage = "url('img/bgsigaadmin.png')";
+else
+	 document.getElementById('bodySigaa').style.backgroundImage = "url(img/bgsigaadminDARK.jpeg)";
+	idImagem = 6;
 };
 
 
