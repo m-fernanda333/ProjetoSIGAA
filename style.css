@@ -23,6 +23,11 @@ i {
 	cursor: pointer;
 }
 
+#buttonmenu
+{
+	display: none;
+}
+
 body {
 	background-color: #F1F1F1;
 	background-size: cover; /*fazendo com que se adeque ao tamanho */
@@ -107,10 +112,7 @@ body {
 
 /* BARRA DE NAVEGAÇÃO */
 
-#buttonmenu
-{
-	display: none;
-}
+
 
 #logo {
 	display: none;
