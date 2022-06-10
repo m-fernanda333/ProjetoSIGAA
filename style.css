@@ -72,11 +72,11 @@ body {
 
 #BtnDarkMode{
 
-	background-color: black;
+	background-color: #11386B;
 	opacity: 100%;
 	width: 5%;
 	height: 10%;
-	right: 15%;
+	right: 5%;
 	bottom:0px;
 	position:fixed;
 	border-top-left-radius: 10%;
@@ -219,7 +219,7 @@ input:focus {
 }
 
 #loginBox input::placeholder {
-  color: #11386B;
+	color: var(--check-secondary, #11386B);
   margin-left: 25px;
 }
 
@@ -578,7 +578,7 @@ input:focus
 
 /*manipulando placeholder*/
 #loginBox input::placeholder {
-	color: #11386B;
+	color: var(--check-secondary, #11386B);
 	position: relative;
 	left: 30px;
   }
@@ -744,7 +744,7 @@ input:focus
 
 /*manipulando placeholder*/
 #loginBox input::placeholder {
-	color: #11386B;
+	color: var(--check-secondary, #11386B);
 	position: relative;
 	left: 30px;
   }
@@ -919,7 +919,7 @@ input:focus
 /*manipulando placeholder*/
 #loginBox input::placeholder
  {
-	color: #11386B;
+	color: var(--check-secondary, #11386B);
 	position: relative;
 	left: 35px;
   }
@@ -1106,7 +1106,7 @@ input:focus
 /*manipulando placeholder*/
 #loginBox input::placeholder
  {
-	color: #11386B;
+	color: var(--check-secondary, #11386B);
 	position: relative;
 	left: 35px;
   }
