@@ -13,10 +13,6 @@ function changePage1(){
     document.getElementById('bodySigaa').style.backgroundImage = "url('img/bgsigaa.png')";
 	//evento para quando for clicado alterar para o modo dark mode
 	document.getElementById('DarkMode').addEventListener("click",darkMode_imagens1);
-	
-	
-	
-
 };
 
 function changePage2(){
@@ -165,13 +161,12 @@ function escreve_sigrh()
 
 
 
-function darkMode_imagens6()
-{
+function darkMode_imagens6() {
 	document.querySelector("input").style.color = "#ffffff";
 	document.querySelector("button").style.backgroundColor = "#DBA838";
 	document.querySelector("a").style.color = "#ffffff";
 	document.querySelector("h4").style.color = "#ffffff";
-	document.getElementById('bodySigaa').style.backgroundImage = "url('img/sigaAdmin.jpeg')";
+	document.getElementById('bodySigaa').style.backgroundImage = "url('img/bgsigaadmindark.jpeg')";
 	document.getElementById("passwordicon").style.color = "ffffff";
 	document.getElementById('Titulo').style.color = "#ffffff";
 	document.getElementById('h2').style.color = "#ffffff";
@@ -194,7 +189,7 @@ function darkMode_imagens5()
 	document.querySelector("button").style.backgroundColor = "#DBA838";
 	document.querySelector("a").style.color = "#ffffff";
 	document.querySelector("h4").style.color = "#ffffff";
-	document.getElementById('bodySigaa').style.backgroundImage = "url('img/siged.jpeg')";
+	document.getElementById('bodySigaa').style.backgroundImage = "url('img/bgsigeddark.jpeg')";
 	document.getElementById("passwordicon").style.color = "ffffff";
 	document.getElementById('Titulo').style.color = "#ffffff";
 	document.getElementById('h2').style.color = "#ffffff";
@@ -216,7 +211,7 @@ function darkMode_imagens4()
 	document.querySelector("button").style.backgroundColor = "#DBA838";
 	document.querySelector("a").style.color = "#ffffff";
 	document.querySelector("h4").style.color = "#ffffff";
-	document.getElementById('bodySigaa').style.backgroundImage = "url('img/sigpp.jpeg')";
+	document.getElementById('bodySigaa').style.backgroundImage = "url('img/bgsigppdark.jpeg')";
 	document.getElementById("passwordicon").style.color = "ffffff";
 	document.getElementById('Titulo').style.color = "#ffffff";
 	document.getElementById('h2').style.color = "#ffffff";
@@ -238,7 +233,7 @@ function darkMode_imagens3()
 	document.querySelector("button").style.backgroundColor = "#DBA838";
 	document.querySelector("a").style.color = "#ffffff";
 	document.querySelector("h4").style.color = "#ffffff";
-	document.getElementById('bodySigaa').style.backgroundImage = "url('img/sigrh.jpeg')";
+	document.getElementById('bodySigaa').style.backgroundImage = "url('img/bgsigrhdark.jpeg')";
 	document.getElementById("passwordicon").style.color = "ffffff";
 	document.getElementById('Titulo').style.color = "#ffffff";
 	document.getElementById('h2').style.color = "#ffffff";
@@ -260,7 +255,7 @@ function darkMode_imagens2()
 	document.querySelector("button").style.backgroundColor = "#DBA838";
 	document.querySelector("a").style.color = "#ffffff";
 	document.querySelector("h4").style.color = "#ffffff";
-	document.getElementById('bodySigaa').style.backgroundImage = "url('img/sipac.jpeg')";
+	document.getElementById('bodySigaa').style.backgroundImage = "url('img/bgsipacdark.jpeg')";
 	document.getElementById("passwordicon").style.color = "ffffff";
 	document.getElementById('Titulo').style.color = "#ffffff";
 	document.getElementById('h2').style.color = "#ffffff";
@@ -271,18 +266,16 @@ function darkMode_imagens2()
 	document.getElementById('confImage').style.display = "none";
 	document.getElementById('DarkMode').style.display="none";
 	document.getElementById('LightMode').style.display="block";
-
-	// falta mudar a cor do placeholder 
-
-	// falta mudar a cor do input
+	document.getElementById(input).style.color = "#ffffff";
+	document.getElementById('loginBox').style.color = "#ffffff";
+	
 }
-function darkMode_imagens1()
-{
+function darkMode_imagens1() {
 	document.querySelector("input").style.color = "#ffffff";
 	document.querySelector("button").style.backgroundColor = "#DBA838";
 	document.querySelector("a").style.color = "#ffffff";
 	document.querySelector("h4").style.color = "#ffffff";
-	document.getElementById('bodySigaa').style.backgroundImage = "url('img/sigaa.jpeg')";
+	document.getElementById('bodySigaa').style.backgroundImage = "url('img/bgsigaadark.jpeg')";
 	document.getElementById("passwordicon").style.color = "ffffff";
 	document.getElementById('Titulo').style.color = "#ffffff";
 	document.getElementById('h2').style.color = "#ffffff";

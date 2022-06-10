@@ -253,13 +253,12 @@ input:focus {
 /*:::::::::::::::::::::::::::::::::::*/
 /*:::::::::::::::BOTAO DARK MODE::::::::::::::::::::*/
 
-#DarkMode
-{
+#DarkMode {
 	cursor: pointer;
-	display: block;
-	width: 5vw;
-	height: 6vh;
-	position: relative;
+	display: inline-block;
+	width: 4vw;
+	height: 7vh;
+	position: fixed;
 	left: 90%;
 	top: 93%;
 	border-top: solid 10px #DBA838;
@@ -268,39 +267,45 @@ input:focus {
 	background-color: white;
 	
 }
-#LightMode
-{
+
+#DarkMode:hover {
+	border-left: 0.5px solid #DBA838;
+	border-right:  0.5px solid #DBA838;
+}
+
+#LightMode {
 	cursor: pointer;
 	display: none;
-	width: 5vw;
-	height: 6vh;
-	position: relative;
+	width: 4vw;
+	height: 7vh;
+	position: fixed;
 	left: 90%;
 	top: 93%;
 	border-top: solid 10px #DBA838;
     border-top-left-radius:20% ;
 	border-top-right-radius:20% ;	
 	background-color: white;
-	
 }
 
+#LightMode:hover {
+	border-left: 0.5px solid #DBA838;
+	border-right:  0.5px solid #DBA838;
+}
 
-#moon
-{
+#moon {
 	position: relative;
 	left: 35%;
-	top: 10%;
-	font-size: 29px;
+	top: 13%;
+	font-size: 21px;
 	color:#141F49;
 	cursor: pointer;
 }
-#sun
-{
 
+#sun {
 	position: relative;
 	left: 32%;
-	top: 10%;
-	font-size: 30px;
+	top: 13%;
+	font-size: 21px;
 	color:#141F49;
 	cursor: pointer;
 }
