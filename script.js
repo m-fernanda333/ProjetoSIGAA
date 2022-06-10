@@ -173,7 +173,7 @@ function changePage3(){
 	document.getElementById('item6').className = 'ItemNavigationBar';
 	if(isDarkModeActive == 0)
 	document.getElementById('bodySigaa').style.backgroundImage = "url('img/bgsigrh.png')";
-else
+	else
 	 document.getElementById('bodySigaa').style.backgroundImage = "url(img/bgsigrhDARK.jpeg)";
 	idImagem = 3;
 };
