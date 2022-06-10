@@ -1,4 +1,3 @@
-      
 <!DOCTYPE html>
 <html>
             
@@ -14,11 +13,7 @@
 
 <body id="bodySigaa">
 
-	<div id="BtnDarkMode" onclick="darkMode()">
-		<img id="imgLB" src="./img/lampada_on.png" alt="Ícone de lampada (acesa)" width="100%" height="100%">
-</div>
-
-	</div>	
+	
 
 	<nav id="navigationLane">
       
@@ -68,15 +63,15 @@
 
 			<form action="" method="post" class="form" id="formLogin1">
 				<h1 id="Titulo"> SIGAA </h1>
-				<h2> Entre em sua conta para continuar</h2>
+				<h2 id="h2"> Entre em sua conta para continuar</h2>
 				<div class="LabelLogin">
 					<i style="color:#141F49; font-size:25px; width: 5%;" class="fa-solid fa-user" id="usericon"> </i>
-					<input type="text" placeholder="  Usuário" autofocus>
+					<input type="text" placeholder="  Usuário" autofocus id="input">
 				</div>
 				<br>
 				<div class="LabelLogin">
 					<i style="color:#141F49; font-size:25px; width: 5%;" class="fas fa-lock" id="passwordicon"></i>
-					<input type="password" placeholder="  Senha" autofocus>
+					<input type="password" placeholder="  Senha" autofocus id="input">
 				</div>
 				<label> <button id="btnLogin">ENTRAR</button> </label>
 				<label id="btnsRegisterAndProblems">
@@ -87,12 +82,12 @@
 				<footer id="footerOne">
 					<h4> SIGAA | Instituto Federal do Sudeste de MG - 3257-4100 | Copyright © <br>
 						2006-2022 - IF Sudeste MG - sig08.ifsudestemg.edu.br.sig08 - v3.32.17 </h4>
+						
+						
+	
 				</footer>
-
+				
 			</form>
-
-			
-
 		</div> <!-- loginBox -->
 	</div>
 
@@ -107,11 +102,13 @@
 			<a class="BtnPopUp" id="btnPopUp3" href=""> </a>
 		</div>
 	</div>
-
-
-
 	<script type="text/javascript" src="script.js"></script>
-
+	
+	
+	
 </body>
+<div id="DarkMode" ><i class="fa-solid fa-moon" id="moon" ></i></div>
+<div id="LightMode" ><i class="fa-solid fa-sun" id="sun"></i></div>
+
 
 </html>

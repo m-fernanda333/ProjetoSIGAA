@@ -43,7 +43,7 @@ body {
 	height: 100vh;
 	margin-left: 50vw;
 	position: absolute;
-	z-index: 10;
+	/*z-index: 10;*/
 }
 
 #bodySigaa{
@@ -70,40 +70,9 @@ body {
 	background-image: url(img/bgsigaadmin.png);
 }
 
-#BtnDarkMode{
-
-	background-color: #141F49;
-	opacity: 100%;
-	width: 5%;
-	height: 10%;
-	right: 15%;
-	bottom:0px;
-	position:fixed;
-	border-top-left-radius: 10%;
-	border-top-right-radius: 10%;
-	z-index: 50;
-	display: inline-block;
-
-}
 
 
-#BtnDarkMode:hover{
 
-	cursor:pointer;
-	border-top: 5px solid #DBA838;
-	border-right: 5px solid #DBA838;
-	border-left: 5px solid #DBA838;
-	width: 6.5%;
-	height: 12%;
-	transition: width, height, 500ms,ease-in-out;
-};
-
-#imgLb{
-	top: 0px;
-	bottom: 0px;
-	left: 0px;
-	right: 0px;
-};
 
 /*:::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::*/
 
@@ -282,6 +251,62 @@ input:focus {
 	justify-content: space-between;
 }
 /*:::::::::::::::::::::::::::::::::::*/
+/*:::::::::::::::BOTAO DARK MODE::::::::::::::::::::*/
+
+#DarkMode
+{
+	cursor: pointer;
+	display: block;
+	width: 5vw;
+	height: 6vh;
+	position: relative;
+	left: 90%;
+	top: 93%;
+	border-top: solid 10px #DBA838;
+    border-top-left-radius:20% ;
+	border-top-right-radius:20% ;	
+	background-color: white;
+	
+}
+#LightMode
+{
+	cursor: pointer;
+	display: none;
+	width: 5vw;
+	height: 6vh;
+	position: relative;
+	left: 90%;
+	top: 93%;
+	border-top: solid 10px #DBA838;
+    border-top-left-radius:20% ;
+	border-top-right-radius:20% ;	
+	background-color: white;
+	
+}
+
+
+#moon
+{
+	position: relative;
+	left: 35%;
+	top: 10%;
+	font-size: 29px;
+	color:#141F49;
+	cursor: pointer;
+}
+#sun
+{
+
+	position: relative;
+	left: 32%;
+	top: 10%;
+	font-size: 30px;
+	color:#141F49;
+	cursor: pointer;
+}
+
+
+
 
 
 /*:::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::*/
