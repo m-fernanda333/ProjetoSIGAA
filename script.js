@@ -1,8 +1,6 @@
 /* ::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::
 
 Data De Modificação:  25/04;
-<<<<<<< HEAD
-<<<<<<< HEAD
 Autor:  M. Fernanda Pinheiro - mfpinheiro02@gmail.com;
 
 ::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::*/
@@ -105,39 +103,10 @@ function desativaDarkMode(){
 	
 	document.getElementById('confImage').style.display = "inline-block";
 
-	document.getElementById('btnProblems').style.color = "#11386B";
-	document.getElementById('btnRegister').style.color = "#141F49";
 
-	document.getElementById('btnLogin').style.color = "#F1F1F1";
-	document.getElementById('SubTitulo').style.color = "#11386B";
-	document.getElementById('FooterTwo').style.color = "#11386B";
-	document.getElementById('btnLogin').style.backgroundColor = "#141F49"
 	
-	document.getElementById('lblLogin1').style.borderColor = "#141F49";
-	document.getElementById('inputLogin1').style.color = "#141F49";
-	document.getElementById('iconeLogin1').style.color = "#141F49";
-
-	document.getElementById('lblLogin1').style.borderColor = "#141F49";
-	
-	document.getElementById('inputLogin1').style.setProperty("--check-secondary", "#141F49");
-
-	document.getElementById('iconeLogin1').style.color = "#141F49";
-
-	document.getElementById('lblLogin2').style.borderColor = "#141F49";
-	
-	document.getElementById('inputLogin2').style.setProperty("--check-secondary", "#141F49");
-
-	document.getElementById('iconeLogin2').style.color = "#141F49";
-
-
 };
 
-=======
-Autor:  M. Fernanda Pinheiro - mfpinheiro02@gmail.com;*/
->>>>>>> aa20e80a52109ec630a480f80cc7d4d6be4b67aa
-=======
-Autor:  M. Fernanda Pinheiro - mfpinheiro02@gmail.com;*/
->>>>>>> aa20e80a52109ec630a480f80cc7d4d6be4b67aa
 function changePage1(){
 	document.getElementById('Titulo').innerHTML = 'SIGAA';
 	document.getElementById('item1').className = 'ItemNavigationBarActive';
@@ -146,21 +115,11 @@ function changePage1(){
 	document.getElementById('item4').className = 'ItemNavigationBar';
 	document.getElementById('item5').className = 'ItemNavigationBar';
 	document.getElementById('item6').className = 'ItemNavigationBar';
-<<<<<<< HEAD
 	if(isDarkModeActive == 0)
    		document.getElementById('bodySigaa').style.backgroundImage = "url('img/bgsigaa.png')";
 	else
 		document.getElementById('bodySigaa').style.backgroundImage = "url(img/bgsigaaDARK.jpeg)";
 	idImagem = 1;
-=======
-    document.getElementById('bodySigaa').style.backgroundImage = "url('img/bgsigaa.png')";
-	//evento para quando for clicado alterar para o modo dark mode
-	document.getElementById('DarkMode').addEventListener("click",darkMode_imagens1);
-	
-<<<<<<< HEAD
->>>>>>> aa20e80a52109ec630a480f80cc7d4d6be4b67aa
-=======
->>>>>>> aa20e80a52109ec630a480f80cc7d4d6be4b67aa
 	
 	
 
@@ -174,19 +133,11 @@ function changePage2(){
 	document.getElementById('item4').className = 'ItemNavigationBar';
 	document.getElementById('item5').className = 'ItemNavigationBar';
 	document.getElementById('item6').className = 'ItemNavigationBar';
-<<<<<<< HEAD
 	if(isDarkModeActive == 0)
 		document.getElementById('bodySigaa').style.backgroundImage = "url('img/bgsipac.png')";
 	else
  		document.getElementById('bodySigaa').style.backgroundImage = "url(img/bgsipacDARK.jpeg)";
 	idImagem = 2;
-=======
-	document.getElementById('bodySigaa').style.backgroundImage = "url('img/bgsipac.png')";
-	//evento para quando for clicado alterar para o modo dark mode
-	document.getElementById('DarkMode').addEventListener("click",darkMode_imagens2);
-
-	
->>>>>>> aa20e80a52109ec630a480f80cc7d4d6be4b67aa
 };
 
 function changePage3(){
@@ -199,21 +150,9 @@ function changePage3(){
 	document.getElementById('item6').className = 'ItemNavigationBar';
 	if(isDarkModeActive == 0)
 	document.getElementById('bodySigaa').style.backgroundImage = "url('img/bgsigrh.png')";
-<<<<<<< HEAD
-<<<<<<< HEAD
 else
 	 document.getElementById('bodySigaa').style.backgroundImage = "url(img/bgsigrhDARK.jpeg)";
 	idImagem = 3;
-=======
-	//evento para quando for clicado alterar para o modo dark mode
-	document.getElementById('DarkMode').addEventListener("click",darkMode_imagens3);
-
->>>>>>> aa20e80a52109ec630a480f80cc7d4d6be4b67aa
-=======
-	//evento para quando for clicado alterar para o modo dark mode
-	document.getElementById('DarkMode').addEventListener("click",darkMode_imagens3);
-
->>>>>>> aa20e80a52109ec630a480f80cc7d4d6be4b67aa
 };
 
 function changePage4(){
@@ -224,22 +163,12 @@ function changePage4(){
 	document.getElementById('item4').className = 'ItemNavigationBarActive';
 	document.getElementById('item5').className = 'ItemNavigationBar';
 	document.getElementById('item6').className = 'ItemNavigationBar';
-<<<<<<< HEAD
 	if(isDarkModeActive == 0)
 		document.getElementById('bodySigaa').style.backgroundImage = "url('img/bgsigpp.png')";
 	else
 	 	document.getElementById('bodySigaa').style.backgroundImage = "url(img/bgsigppDARK.jpeg)";
 
 	idImagem = 4;
-=======
-	document.getElementById('bodySigaa').style.backgroundImage = "url('img/bgsigpp.png')";
-	//evento para quando for clicado alterar para o modo dark mode
-	document.getElementById('DarkMode').addEventListener("click",darkMode_imagens4);
-
-<<<<<<< HEAD
->>>>>>> aa20e80a52109ec630a480f80cc7d4d6be4b67aa
-=======
->>>>>>> aa20e80a52109ec630a480f80cc7d4d6be4b67aa
 };
 
 function changePage5(){
@@ -252,21 +181,9 @@ function changePage5(){
 	document.getElementById('item6').className = 'ItemNavigationBar';
 	if(isDarkModeActive == 0)
 	document.getElementById('bodySigaa').style.backgroundImage = "url('img/bgsiged.png')";
-<<<<<<< HEAD
-<<<<<<< HEAD
 else
 	 document.getElementById('bodySigaa').style.backgroundImage = "url(img/bgsigedDARK.jpeg)";
 	idImagem = 5;
-=======
-	//evento para quando for clicado alterar para o modo dark mode
-	document.getElementById('DarkMode').addEventListener("click",darkMode_imagens5);
-
->>>>>>> aa20e80a52109ec630a480f80cc7d4d6be4b67aa
-=======
-	//evento para quando for clicado alterar para o modo dark mode
-	document.getElementById('DarkMode').addEventListener("click",darkMode_imagens5);
-
->>>>>>> aa20e80a52109ec630a480f80cc7d4d6be4b67aa
 };
 
 function changePage6(){
@@ -279,30 +196,10 @@ function changePage6(){
 	document.getElementById('item6').className = 'ItemNavigationBarActive';
 	if(isDarkModeActive == 0)
 	document.getElementById('bodySigaa').style.backgroundImage = "url('img/bgsigaadmin.png')";
-<<<<<<< HEAD
-<<<<<<< HEAD
 else
 	 document.getElementById('bodySigaa').style.backgroundImage = "url(img/bgsigaadminDARK.jpeg)";
 	idImagem = 6;
-=======
-=======
->>>>>>> aa20e80a52109ec630a480f80cc7d4d6be4b67aa
-	
-	//evento para quando for clicado alterar para o modo dark mode
-	document.getElementById('DarkMode').addEventListener("click",darkMode_imagens6);
-	
-
-
-		
-	
-<<<<<<< HEAD
->>>>>>> aa20e80a52109ec630a480f80cc7d4d6be4b67aa
-=======
->>>>>>> aa20e80a52109ec630a480f80cc7d4d6be4b67aa
 };
-
-
-
 
 
 function openPopUp() { //mostrar menu popup no display
@@ -367,143 +264,5 @@ function escreve_sigrh()
 	document.getElementById("logo").innerHTML = "SIGRH";
 }
 //----------------------------------------------------------------------------//
-
-
-
-
-function darkMode_imagens6()
-{
-	document.querySelector("input").style.color = "#ffffff";
-	document.querySelector("button").style.backgroundColor = "#DBA838";
-	document.querySelector("a").style.color = "#ffffff";
-	document.querySelector("h4").style.color = "#ffffff";
-	document.getElementById('bodySigaa').style.backgroundImage = "url('img/sigaAdmin.jpeg')";
-	document.getElementById("passwordicon").style.color = "ffffff";
-	document.getElementById('Titulo').style.color = "#ffffff";
-	document.getElementById('h2').style.color = "#ffffff";
-	document.getElementById('usericon').style.color = "#ffffff";	
-	document.getElementById('navigationLane').style.backgroundColor = "#101010";
-	document.getElementById('loginFrame').style.backgroundColor = "#000000";
-	document.getElementById('loginFrame').style.opacity = "85%";
-	document.getElementById('confImage').style.display = "none";
-	document.getElementById('DarkMode').style.display="none";
-	document.getElementById('LightMode').style.display="block";
-
-	// falta mudar a cor do placeholder 
-
-	// falta mudar a cor do input
-		
-}
-function darkMode_imagens5()
-{
-	document.querySelector("input").style.color = "#ffffff";
-	document.querySelector("button").style.backgroundColor = "#DBA838";
-	document.querySelector("a").style.color = "#ffffff";
-	document.querySelector("h4").style.color = "#ffffff";
-	document.getElementById('bodySigaa').style.backgroundImage = "url('img/siged.jpeg')";
-	document.getElementById("passwordicon").style.color = "ffffff";
-	document.getElementById('Titulo').style.color = "#ffffff";
-	document.getElementById('h2').style.color = "#ffffff";
-	document.getElementById('usericon').style.color = "#ffffff";	
-	document.getElementById('navigationLane').style.backgroundColor = "#101010";
-	document.getElementById('loginFrame').style.backgroundColor = "#000000";
-	document.getElementById('loginFrame').style.opacity = "85%";
-	document.getElementById('confImage').style.display = "none";
-	document.getElementById('DarkMode').style.display="none";
-	document.getElementById('LightMode').style.display="block";
-
-	// falta mudar a cor do placeholder 
-
-	// falta mudar a cor do input
-}
-function darkMode_imagens4()
-{
-	document.querySelector("input").style.color = "#ffffff";
-	document.querySelector("button").style.backgroundColor = "#DBA838";
-	document.querySelector("a").style.color = "#ffffff";
-	document.querySelector("h4").style.color = "#ffffff";
-	document.getElementById('bodySigaa').style.backgroundImage = "url('img/sigpp.jpeg')";
-	document.getElementById("passwordicon").style.color = "ffffff";
-	document.getElementById('Titulo').style.color = "#ffffff";
-	document.getElementById('h2').style.color = "#ffffff";
-	document.getElementById('usericon').style.color = "#ffffff";	
-	document.getElementById('navigationLane').style.backgroundColor = "#101010";
-	document.getElementById('loginFrame').style.backgroundColor = "#000000";
-	document.getElementById('loginFrame').style.opacity = "85%";
-	document.getElementById('confImage').style.display = "none";
-	document.getElementById('DarkMode').style.display="none";
-	document.getElementById('LightMode').style.display="block";
-
-	// falta mudar a cor do placeholder 
-
-	// falta mudar a cor do input
-}
-function darkMode_imagens3()
-{
-	document.querySelector("input").style.color = "#ffffff";
-	document.querySelector("button").style.backgroundColor = "#DBA838";
-	document.querySelector("a").style.color = "#ffffff";
-	document.querySelector("h4").style.color = "#ffffff";
-	document.getElementById('bodySigaa').style.backgroundImage = "url('img/sigrh.jpeg')";
-	document.getElementById("passwordicon").style.color = "ffffff";
-	document.getElementById('Titulo').style.color = "#ffffff";
-	document.getElementById('h2').style.color = "#ffffff";
-	document.getElementById('usericon').style.color = "#ffffff";	
-	document.getElementById('navigationLane').style.backgroundColor = "#101010";
-	document.getElementById('loginFrame').style.backgroundColor = "#000000";
-	document.getElementById('loginFrame').style.opacity = "85%";
-	document.getElementById('confImage').style.display = "none";
-	document.getElementById('DarkMode').style.display="none";
-	document.getElementById('LightMode').style.display="block";
-
-	// falta mudar a cor do placeholder 
-
-	// falta mudar a cor do input
-}
-function darkMode_imagens2()
-{
-	document.querySelector("input").style.color = "#ffffff";
-	document.querySelector("button").style.backgroundColor = "#DBA838";
-	document.querySelector("a").style.color = "#ffffff";
-	document.querySelector("h4").style.color = "#ffffff";
-	document.getElementById('bodySigaa').style.backgroundImage = "url('img/sipac.jpeg')";
-	document.getElementById("passwordicon").style.color = "ffffff";
-	document.getElementById('Titulo').style.color = "#ffffff";
-	document.getElementById('h2').style.color = "#ffffff";
-	document.getElementById('usericon').style.color = "#ffffff";	
-	document.getElementById('navigationLane').style.backgroundColor = "#101010";
-	document.getElementById('loginFrame').style.backgroundColor = "#000000";
-	document.getElementById('loginFrame').style.opacity = "85%";
-	document.getElementById('confImage').style.display = "none";
-	document.getElementById('DarkMode').style.display="none";
-	document.getElementById('LightMode').style.display="block";
-
-	// falta mudar a cor do placeholder 
-
-	// falta mudar a cor do input
-}
-function darkMode_imagens1()
-{
-	document.querySelector("input").style.color = "#ffffff";
-	document.querySelector("button").style.backgroundColor = "#DBA838";
-	document.querySelector("a").style.color = "#ffffff";
-	document.querySelector("h4").style.color = "#ffffff";
-	document.getElementById('bodySigaa').style.backgroundImage = "url('img/sigaa.jpeg')";
-	document.getElementById("passwordicon").style.color = "ffffff";
-	document.getElementById('Titulo').style.color = "#ffffff";
-	document.getElementById('h2').style.color = "#ffffff";
-	document.getElementById('usericon').style.color = "#ffffff";	
-	document.getElementById('navigationLane').style.backgroundColor = "#101010";
-	document.getElementById('loginFrame').style.backgroundColor = "#000000";
-	document.getElementById('loginFrame').style.opacity = "85%";
-	document.getElementById('confImage').style.display = "none";
-	document.getElementById('DarkMode').style.display="none";
-	document.getElementById('LightMode').style.display="block";
-
-	// falta mudar a cor do placeholder 
-
-	// falta mudar a cor do input
-}
-
 
 
